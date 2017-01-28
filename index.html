@@ -10,13 +10,13 @@
 
 <div id="show_variable">
 	<p>let ajax change this text</p>
-	<button type="button" onclick="getVar()">
+	<button type="button" onclick="getVar(0)">Fuck me</button>
 </div>
 
 <script>
 //getVar();
 
-function getVar() {
+function getVar(i) {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
