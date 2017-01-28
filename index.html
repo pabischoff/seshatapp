@@ -8,27 +8,35 @@
 
 <body>
 
-<div id="show_variable">
-	<p>let ajax change this text</p>
-</div>
+<p id="show_variable">Click me to change my HTML content (innerHTML).</p>
+
+<input type="button" onclick="previousPolity()" value="<<">
+<input type="button" onclick="nextPolity()" value=">>">
+
 
  <script>
 getVar(0);
 
 function getVar(i) {
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-		document.getElementByID("show_variable").innerHTML = "Hi there";
-            	showVar(this, i);
-        }
+		
+
+   	var xmlhttp = new XMLHttpRequest();
+	xmlhttp.open("GET", "seshatapp.xml", true);
+
+    	xmlhttp.onreadystatechange = function() {
+
+        //if (this.readyState == 4 && this.status == 200) {
+
+          	showVar(this, i);
+        //}
     };
-    	xmlhttp.open("GET", "https://github.com/pabischoff/seshatapp/blob/master/seshatapp.xml", true);
-	//xmlhttp.open("GET", "seshatapp.xml", true);
-    xmlhttp.send();
+    	//xmlhttp.open("GET", "https://github.com/pabischoff/seshatapp/blob/master/seshatapp.xml", true);
+
+    	xmlhttp.send();
 }
 
 function showVar(xml, i) {
+		document.getElementById("show_variable").innerHTML = "Hi there";
     var xmlDoc = xml.responseXML; 
     x = xmlDoc.getElementsByTagName("POLITY");
     document.getElementById("show_variable").innerHTML =
@@ -38,7 +46,7 @@ function showVar(xml, i) {
     x[i].getElementsByTagName("END")[0].childNodes[0].nodeValue +
     "<br>Government: " + 
     x[i].getElementsByTagName("GOVERNMENT")[0].childNodes[0].nodeValue +
-    "<br>Regligion: " + 
+    "<br>Religion: " + 
     x[i].getElementsByTagName("RELIGION")[0].childNodes[0].nodeValue;
 }
 
@@ -56,6 +64,6 @@ function previousPolity() {
   i--;
   getVar(i);
   }
-}
+} 
 </script> 
 </body>
