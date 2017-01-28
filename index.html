@@ -1,7 +1,7 @@
 <html>
 <head>
 <style>
-<!-- CSS Goes here -->
+
 </style>
 </head>
 
@@ -10,11 +10,10 @@
 
 <div id="show_variable">
 	<p>let ajax change this text</p>
-	<button type="button" onclick="getVar(0)">Fuck me</button>
 </div>
 
-<script>
-//getVar();
+ <script>
+getVar(0);
 
 function getVar(i) {
     var xmlhttp = new XMLHttpRequest();
@@ -24,7 +23,8 @@ function getVar(i) {
             	showVar(this, i);
         }
     };
-    xmlhttp.open("GET", "https://github.com/pabischoff/seshatapp/blob/master/seshatapp.xml", true);
+    	xmlhttp.open("GET", "https://github.com/pabischoff/seshatapp/blob/master/seshatapp.xml", true);
+	//xmlhttp.open("GET", "seshatapp.xml", true);
     xmlhttp.send();
 }
 
@@ -57,5 +57,5 @@ function previousPolity() {
   getVar(i);
   }
 }
-</script>
+</script> 
 </body>
