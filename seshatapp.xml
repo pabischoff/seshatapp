@@ -1,63 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CATALOG>
-	<NGA geography="China">
-		<POLITY name="Zhou">
-			<BEGIN>100</BEGIN>
-			<END>200</END>
-			<GOVERNMENT>Lorem Ipsum</GOVERNMENT>
-			<RELIGION>Lorem Ipsum</RELIGION>
+	<NGA name="Latium">
+		<POLITY>
+			<NAME>ItRomPr</NAME>
+			<SOCIAL>Actual: 4,500,000: 14 CE; 5,800,000: 117 CE; 5,000,000: 211 CE; 4,750,000: 274 CE Maximum Area: 5.0 Mm^2. [13] 5m km^2.</SOCIAL>
+			<HIERARCHY>The standard population is estimated at 50 to 60 million in 117 CE. The most common estimate for the empire population is around 60 million, but a figure of 150 million is also conceivable, though highly unlikely. [16] Another estimate is 50 million people (i.e. 5000 administrative units) at height. [17] 14 CE and 164 CE estimate based on: Frier, Bruce W. "Demography", in Alan K. Bowman, Peter Garnsey, and Dominic Rathbone, eds., The Cambridge Ancient History XI: The High Empire, A.D. 70–192, (Cambridge: Cambridge University Press, 2000), 827–54.</HIERARCHY>
+			<PROFESSIONS>1. The capital (Rome)
+
+2. Provincial capitals (Ephesus, Lugdunum)
+3. Client States/Kingdoms (Cappadocia, Egypt, Numidia)
+4. Colonies/coloniae (Pompeii in Italy, Cremna in Anatolia, Camulodunum in England) and Municipia (Volubilis in Mauretania)
+5. Tributary communities, not necessarily urbanized
+6. Village/vici
+7. Pagi (rural settlements)
+In lower population density regions there could be no difference between vici and pagi. There could also be some overlap between provincial capitals and coloniae/municipia. As a result, the code '6 levels' corresponds to more populous regions, whilst in sparser populated regions the code '4 levels' should be used</PROFESSIONS>
+			<BUREAUCRACY>♠ Full-time bureaucrats ♣ present ♥ There were salaried officials who worked in the Imperial Bureaux (scrinia)[85] of the Roman Principate. The new imperial treasury (fiscus) (the old state treasury was known as aerarium Saturni) created a "new class of officials" ... "'a rationibus' down to Hadrian's time was normally a freedman." [86] Salaries of officials were part of government expenditure: "The main items of expenditure were the maintenance of the army, the expenses of provincial government, the salaries of officials, the corn-supply and police of Rome, the maintenance of religion, the building of temples and other public works, and the public roads and aqueducts."[87]
+
+"At its largest extent, in the fourth century, the imperial government had somewhat over thirty thousand functionaries ... in the earlier centuries, when the empire was at the height of its power and glory, it employed only a fraction of that number." ... "Fourth cent., A. H. M. Jones (1964), 1057 n.44. The size of the administration in earlier centuries is harder to estimate: Eck (1980: 16) counts some 10,000 in the provinces under Trajan, mostly seconded soldiers ...; independently R. F. Tannenbaum (private communication) estimates a total of some 10,000-12,000 including Rome and Italy, but excluding the central and local adinistration of Egypt."[88]</BUREAUCRACY>
 		</POLITY>
-		<POLITY name="Qin">
-			<BEGIN>200</BEGIN>
-			<END>200</END>
-			<GOVERNMENT>Lorem Ipsum</GOVERNMENT>
-			<RELIGION>Lorem Ipsum</RELIGION>
+		<POLITY>
+			<NAME>TrRomDm</NAME>
+			<SOCIAL>The most common general estimate for the empire population is around 60 million, but a figure of 150 million is also conceivable, though highly unlikely [9]. Another estimate is 50 million people (i.e. 5000 administrative units at height. [10]. According to a graph by McEvedy and Jones between 200 CE and 400 CE population of the Roman Empire decreased from about 45 million to 35 million [11].</SOCIAL>
+			<HIERARCHY>1. The capital (e.g. Constantinople)
+
+2. Administrative centers (e.g. Nicomedia, Mediolanum, Antioch, Trier)
+3. Provincial capitals (Ephesus, Lugdunum)
+provinces had capital cities (e.g. Carthage in Africa Proconsularis, Epehsus in Asia, etc.)
+4. Colonies/coloniae (Pompeii in Italy, Cremna in Anatolia, Camulodunum in England) and Municipia (Volubilis in Mauretania)
+5. tributary communities, not necessarily urbanized
+6. village/vici
+7. pagi (rural settlements)</HIERARCHY>
+			<PROFESSIONS>The highest officers in the Roman military system were usually senators not professionals. There were, however, professional junior officers at least from the Roman Principate.
+
+"Typically the men who commanded armies and legions were senators. There were no military specialists in Roman government and no imperial high command. All senators alternated brief periods of military command with administrative posts, participation in domestic politics and careers as legal advocates. As military commanders they were, to a great extent, amateurs, even though most did a brief spell as a junior officer (tribune) in a legion. They would have depended on the professional junior officers (tribunes and centurions) as well as the training and discipline of the legionaries themselves to win battles.""[43]
+
+"Tribunes, like the legionary legate (commander), were drawn from Rome's social and political elite, the senatorial and equestrian orders, and were not professional soldiers. They alternated military service with political, judicial and administrative duties."[44]</PROFESSIONS>
+			<BUREAUCRACY>During the Roman Dominate "foundations were laid [for the] bureaucratic absolute monarchy in which a trained professional civil service attended to the administration of a far-flung empire." [49] Modelled on the military, the bureaucratic service became known as the militia. Bureaucrats wore a uniform, the highest officials with the most elaborate outfits, and the Centurian's swagger stick was a badge of office. [50] There were salaried officials who worked in the Imperial Bureaux (scrinia)[51] of the Roman Principate. The new imperial treasury (fiscus) (the old state treasury was known as aerarium Saturni) created a "new class of officials" ... "'a rationibus' down to Hadrian's time was normally a freedman." [52] Salaries of officials were part of government expenditure: "The main items of expenditure were the maintenance of the army, the expenses of provincial government, the salaries of officials, the corn-supply and police of Rome, the maintenance of religion, the building of temples and other public works, and the public roads and aqueducts."[53]</BUREAUCRACY>
 		</POLITY>
-		<POLITY name="Han">
-			<BEGIN>300</BEGIN>
-			<END>200</END>
-			<GOVERNMENT>Lorem Ipsum</GOVERNMENT>
-			<RELIGION>Lorem Ipsum</RELIGION>
+		<POLITY>
+			<NAME>ItRomWe</NAME>
+			<SOCIAL>Rome. Peak settlement of Rome generally thought to be c150 CE. By 300 CE still about 800,000 which had decreased to roughly 500,000 by 400 CE. [13]</SOCIAL>
+			<HIERARCHY>1. The capital (e.g. Ravenna)
+
+2. Administrative centers (e.g. Rome)
+3. Provincial capitals (Londinium)
+4. Larger towns
+5. village/vici
+6. pagi (rural settlements)</HIERARCHY>
+			<PROFESSIONS>"In the West, as time passed the command of the army moved away from the emperor and devolved upon the newly created magister peditum ('master of the infantry') and magister equitum ('master of the cavalry'). In the course of time the magister peditum became the more senior of the two posts."</PROFESSIONS>
+			<BUREAUCRACY>"Viewed through the baroque rhetoric of a text like the Variae the bureaucracy appears hierarchically complex and numberous, and indeed gives the impression of being on par with the eastern civil service. The swelling of governmental apparatus and personnel was certainly one of the defining features of late antique society. By the end of the 4th century the state provided civil positions for an estimated 40,000 across the empire."[22]</BUREAUCRACY>
 		</POLITY>
 	</NGA>
-	<NGA geography="China">
-		<POLITY name="Zhou">
-			<BEGIN>400</BEGIN>
-			<END>200</END>
-			<GOVERNMENT>Lorem Ipsum</GOVERNMENT>
-			<RELIGION>Lorem Ipsum</RELIGION>
+	<NGA name="Cuzco">
+		<POLITY>
+			<NAME>CuzcoLF</NAME>
+			<SOCIAL>Lorem Ipsum</SOCIAL>
+			<HIERARCHY>Lorem Ipsum</HIERARCHY>
+			<PROFESSIONS>Lorem Ipsum</PROFESSIONS>
+			<BUREAUCRACY>Lorem Ipsum</BUREAUCRACY>
 		</POLITY>
-		<POLITY name="Qin">
-			<BEGIN>400</BEGIN>
-			<END>200</END>
-			<GOVERNMENT>Lorem Ipsum</GOVERNMENT>
-			<RELIGION>Lorem Ipsum</RELIGION>
+		<POLITY>
+			<NAME>CuzcEI1</NAME>
+			<SOCIAL>Lorem Ipsum</SOCIAL>
+			<HIERARCHY>Lorem Ipsum</HIERARCHY>
+			<PROFESSIONS>Lorem Ipsum Super</PROFESSIONS>
+			<BUREAUCRACY>Lorem Ipsum</BUREAUCRACY>
 		</POLITY>
-		<POLITY name="Han">
-			<BEGIN>500</BEGIN>
-			<END>200</END>
-			<GOVERNMENT>Lorem Ipsum</GOVERNMENT>
-			<RELIGION>Lorem Ipsum</RELIGION>
+		<POLITY>
+			<NAME>CuzcEI2</NAME>
+			<SOCIAL>Lorem Ipsum</SOCIAL>
+			<HIERARCHY>Lorem Ipsum</HIERARCHY>
+			<PROFESSIONS>Lorem Ipsum</PROFESSIONS>
+			<BUREAUCRACY>Lorem Ipsum</BUREAUCRACY>
 		</POLITY>
 	</NGA>
-	<NGA geography="China">
-		<POLITY name="Zhou">
-			<BEGIN>600</BEGIN>
-			<END>200</END>
-			<GOVERNMENT>Lorem Ipsum</GOVERNMENT>
-			<RELIGION>Lorem Ipsum</RELIGION>
+	<NGA name="Cahokia">
+		<POLITY>
+			<NAME>USMisMW</NAME>
+			<SOCIAL>Lorem Ipsum</SOCIAL>
+			<HIERARCHY>Lorem Ipsum</HIERARCHY>
+			<PROFESSIONS>Lorem Ipsum</PROFESSIONS>
+			<BUREAUCRACY>Lorem Ipsum</BUREAUCRACY>
 		</POLITY>
-		<POLITY name="Qin">
-			<BEGIN>700</BEGIN>
-			<END>200</END>
-			<GOVERNMENT>Lorem Ipsum</GOVERNMENT>
-			<RELIGION>Lorem Ipsum</RELIGION>
+		<POLITY>
+			<NAME>USMisRo</NAME>
+			<SOCIAL>Lorem Ipsum</SOCIAL>
+			<HIERARCHY>Lorem Ipsum</HIERARCHY>
+			<PROFESSIONS>Lorem Ipsum</PROFESSIONS>
+			<BUREAUCRACY>Super</BUREAUCRACY>
 		</POLITY>
-		<POLITY name="Han">
-			<BEGIN>800</BEGIN>
-			<END>200</END>
-			<GOVERNMENT>Lorem Ipsum</GOVERNMENT>
-			<RELIGION>Lorem Ipsum</RELIGION>
+		<POLITY>
+			<NAME>USMisMu</NAME>
+			<SOCIAL>Lorem Ipsum</SOCIAL>
+			<HIERARCHY>Lorem Ipsum</HIERARCHY>
+			<PROFESSIONS>Lorem Ipsum</PROFESSIONS>
+			<BUREAUCRACY>Lorem Ipsum</BUREAUCRACY>
 		</POLITY>
 	</NGA>
 </CATALOG>

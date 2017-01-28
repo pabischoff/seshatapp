@@ -8,27 +8,47 @@
 
 <body>
 
-<p id="show_variable">Click me to change my HTML content (innerHTML).</p>
+<p>Choose an NGA</p>
+<select id="nga">
+  <option value="0">Latium</option>
+  <option value="1">Cuzco</option>
+  <option value="2">Cahokia</option>
+</select>
+<p>Choose a variable<p>
+<select id="variable">
+  <option value="SOCIAL">Social Scale</option>
+  <option value="HIERARCHY">Hierarchical Complexity</option>
+  <option value="PROFESSIONS">Professions</option>
+  <option value="BUREAUCRACY">Bureaucracy characteristics</option>
+</select>
 
-<input type="button" onclick="previousPolity()" value="<<">
-<input type="button" onclick="nextPolity()" value=">>">
+<p id="polity">Polity</p>
+<p id="show_variable">Click Submit to get information for the first polity.</p>
+
+<input type="button" onclick="getVar()" value="Submit">
+
+<input type="button" onclick="previousPolity()" value="Previous Polity">
+<input type="button" onclick="nextPolity()" value="Next Polity">
 
 
  <script>
-var i = 2;
-getVar(i);
+var i = 0;
 
 function getVar(i) {
 		
-
-   	var xmlhttp = new XMLHttpRequest();
+	var variable = document.getElementById("variable");
+	var variableVal = variable.options[variable.selectedIndex].value;
+	var nga = document.getElementById("nga");
+	var ngaVal = nga.options[nga.selectedIndex].value;
+   	var ngaInt = parseInt(ngaVal);
+	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.open("GET", "seshatapp.xml", true);
 
     	xmlhttp.onreadystatechange = function() {
 
         //if (this.readyState == 4 && this.status == 200) {
 
-          	showVar(this, i);
+          	showVar(this, variableVal, ngaInt);
         //}
     };
     	//xmlhttp.open("GET", "https://github.com/pabischoff/seshatapp/blob/master/seshatapp.xml", true);
@@ -36,35 +56,31 @@ function getVar(i) {
     	xmlhttp.send();
 }
 
-function showVar(xml, i) {
-		document.getElementById("show_variable").innerHTML = "Hi there";
-    var xmlDoc = xml.responseXML; 
-    x = xmlDoc.getElementsByTagName("POLITY");
-    document.getElementById("show_variable").innerHTML =
-    "Begin: " +
-    x[i].getElementsByTagName("BEGIN")[0].childNodes[0].nodeValue +
-    "<br>End: " +
-    x[i].getElementsByTagName("END")[0].childNodes[0].nodeValue +
-    "<br>Government: " + 
-    x[i].getElementsByTagName("GOVERNMENT")[0].childNodes[0].nodeValue +
-    "<br>Religion: " + 
-    x[i].getElementsByTagName("RELIGION")[0].childNodes[0].nodeValue;
-}
-
-function nextPolity() {
-  // display the next polity, unless you are on the last polity
-  if (i < x.length-1) {
-    i++;
-    getVar(i);
-  }
+function showVar(xml, variableVal, ngaInt) {
+	var xmlDoc = xml.responseXML;
+    	var x = xmlDoc.getElementsByTagName("NGA")[ngaInt];
+	var y = x.getElementsByTagName(variableVal)[0+i];
+	var xy = y.childNodes[0];
+	var z = x.getElementsByTagName("NAME")[0+i];
+	var xz = z.childNodes[0];
+    	document.getElementById("show_variable").innerHTML = xy.nodeValue;
+	document.getElementById("polity").innerHTML = xz.nodeValue;
 }
 
 function previousPolity() {
+  // display the next polity, unless you are on the last polity
+	if (i > 0) {    
+		i--;
+    		getVar(i);
+	}
+}
+
+function nextPolity() {
   // display the previous polity, unless you are on the first polity 
-  if (i > 0) {
-  i--;
-  getVar(i);
-  }
+	if (i < 2) { // THIS MUST BE CHANGED DYNAMICALLY TO ACCOUNT FOR THE MAXIMUM NUMBER OF POLITIES IN A GIVEN NGA
+  		i++;
+  		getVar(i);
+	}
 } 
 </script> 
 </body>
