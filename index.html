@@ -8,11 +8,10 @@
 
 <body>
 
-<div id="show_variable">Hi</div>
-
-<script>
-document.getElementByID("show_variable").innerHTML = "Hi there";
-</script>
+<div id="show_variable">
+	<p>let ajax change this text</p>
+	<button type="button" onclick="getVar()">
+</div>
 
 <script>
 //getVar();
@@ -21,8 +20,8 @@ function getVar() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            	showVar(this, i);
 		document.getElementByID("show_variable").innerHTML = "Hi there";
+            	showVar(this, i);
         }
     };
     xmlhttp.open("GET", "https://github.com/pabischoff/seshatapp/blob/master/seshatapp.xml", true);
