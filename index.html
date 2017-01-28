@@ -8,19 +8,19 @@
 
 <body>
 
-<p id="show_variable">Hi</p>
+<div id="show_variable">Hi</div>
 
-<script type = "text/javascript">
-getVar(0);
+<script>
+getVar();
 
-function getVar(i) {
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
+function getVar() {
+    //var xmlhttp = new XMLHttpRequest();
+    //xmlhttp.onreadystatechange = function() {
+        //if (this.readyState == 4 && this.status == 200) {
             	//showVar(this, i);
 		document.getElementByID("show_variable").innerHTML = "Hi there";
-        }
-    };
+        //}
+    //};
     //xmlhttp.open("GET", "https://github.com/pabischoff/seshatapp/blob/master/seshatapp.xml", true);
     //xmlhttp.send();
 }
