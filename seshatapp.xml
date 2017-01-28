@@ -1,0 +1,63 @@
+<CATALOG>
+	<NGA geography="China">
+		<POLITY name="Zhou">
+			<BEGIN>100</BEGIN>
+			<END>200</END>
+			<GOVERNMENT>Lorem Ipsum</GOVERNMENT>
+			<RELIGION>Lorem Ipsum</RELIGION>
+		</POLITY>
+		<POLITY name="Qin">
+			<BEGIN>100</BEGIN>
+			<END>200</END>
+			<GOVERNMENT>Lorem Ipsum</GOVERNMENT>
+			<RELIGION>Lorem Ipsum</RELIGION>
+		</POLITY>
+		<POLITY name="Han">
+			<BEGIN>100</BEGIN>
+			<END>200</END>
+			<GOVERNMENT>Lorem Ipsum</GOVERNMENT>
+			<RELIGION>Lorem Ipsum</RELIGION>
+		</POLITY>
+	</NGA>
+	<NGA geography="China">
+		<POLITY name="Zhou">
+			<BEGIN>100</BEGIN>
+			<END>200</END>
+			<GOVERNMENT>Lorem Ipsum</GOVERNMENT>
+			<RELIGION>Lorem Ipsum</RELIGION>
+		</POLITY>
+		<POLITY name="Qin">
+			<BEGIN>100</BEGIN>
+			<END>200</END>
+			<GOVERNMENT>Lorem Ipsum</GOVERNMENT>
+			<RELIGION>Lorem Ipsum</RELIGION>
+		</POLITY>
+		<POLITY name="Han">
+			<BEGIN>100</BEGIN>
+			<END>200</END>
+			<GOVERNMENT>Lorem Ipsum</GOVERNMENT>
+			<RELIGION>Lorem Ipsum</RELIGION>
+		</POLITY>
+	</NGA>
+	<NGA geography="China">
+		<POLITY name="Zhou">
+			<BEGIN>100</BEGIN>
+			<END>200</END>
+			<GOVERNMENT>Lorem Ipsum</GOVERNMENT>
+			<RELIGION>Lorem Ipsum</RELIGION>
+		</POLITY>
+		<POLITY name="Qin">
+			<BEGIN>100</BEGIN>
+			<END>200</END>
+			<GOVERNMENT>Lorem Ipsum</GOVERNMENT>
+			<RELIGION>Lorem Ipsum</RELIGION>
+		</POLITY>
+		<POLITY name="Han">
+			<BEGIN>100</BEGIN>
+			<END>200</END>
+			<GOVERNMENT>Lorem Ipsum</GOVERNMENT>
+			<RELIGION>Lorem Ipsum</RELIGION>
+		</POLITY>
+	</NGA>
+</CATALOG>
+	

@@ -1,0 +1,58 @@
+<html>
+<head>
+<style>
+<!-- CSS Goes here -->
+</style>
+</head>
+
+
+<body>
+
+<p id="show_variable">Hi</p>
+
+<script type = "text/javascript">
+getVar(0);
+
+function getVar(i) {
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            	//showVar(this, i);
+		document.getElementByID("show_variable").innerHTML = "Hi there";
+        }
+    };
+    xmlhttp.open("GET", "seshatapp.xml", true);
+    xmlhttp.send();
+}
+
+function showVar(xml, i) {
+    var xmlDoc = xml.responseXML; 
+    x = xmlDoc.getElementsByTagName("POLITY");
+    document.getElementById("show_variable").innerHTML =
+    "Begin: " +
+    x[i].getElementsByTagName("BEGIN")[0].childNodes[0].nodeValue +
+    "<br>End: " +
+    x[i].getElementsByTagName("END")[0].childNodes[0].nodeValue +
+    "<br>Government: " + 
+    x[i].getElementsByTagName("GOVERNMENT")[0].childNodes[0].nodeValue +
+    "<br>Regligion: " + 
+    x[i].getElementsByTagName("RELIGION")[0].childNodes[0].nodeValue;
+}
+
+function nextPolity() {
+  // display the next polity, unless you are on the last polity
+  if (i < x.length-1) {
+    i++;
+    getVar(i);
+  }
+}
+
+function previousPolity() {
+  // display the previous polity, unless you are on the first polity 
+  if (i > 0) {
+  i--;
+  getVar(i);
+  }
+}
+</script>
+</body>
