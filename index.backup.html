@@ -1,12 +1,13 @@
 <html>
 <head>
 <style>
+
 </style>
 </head>
 
 
 <body>
-	<h1>Seshat Polity Explorer</h1>
+
 <p>Choose an NGA</p>
 <select id="nga">
   <option value="0">Latium</option>
@@ -21,63 +22,49 @@
   <option value="BUREAUCRACY">Bureaucracy characteristics</option>
 </select>
 
-<p><input type="button" onclick="getVar()" value="Submit"></p>
 <p id="polity">Polity</p>
-<p><input type="button" onclick="previousPolity()" value="Previous Polity">
-<input type="button" onclick="nextPolity()" value="Next Polity"></p>
-
-
-
 <p id="show_variable">Click Submit to get information for the first polity.</p>
+
+<input type="button" onclick="getVar()" value="Submit">
+
+<input type="button" onclick="previousPolity()" value="Previous Polity">
+<input type="button" onclick="nextPolity()" value="Next Polity">
+
 
  <script>
 var i = 0;
 
-function getVar() { //xml request
+function getVar(i) {
 		
 	var variable = document.getElementById("variable");
 	var variableVal = variable.options[variable.selectedIndex].value;
 	var nga = document.getElementById("nga");
 	var ngaVal = nga.options[nga.selectedIndex].value;
    	var ngaInt = parseInt(ngaVal);
-
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.open("GET", "seshatapp.xml", true);
+
     	xmlhttp.onreadystatechange = function() {
+
         //if (this.readyState == 4 && this.status == 200) {
+
           	showVar(this, variableVal, ngaInt);
         //}
     };
     	//xmlhttp.open("GET", "https://github.com/pabischoff/seshatapp/blob/master/seshatapp.xml", true);
+
     	xmlhttp.send();
 }
+
 function showVar(xml, variableVal, ngaInt) {
 	var xmlDoc = xml.responseXML;
-    	var x = xmlDoc.getElementsByTagName("NGA")[ngaInt]; // get the NDA by dropdown value
-	var y = x.getElementsByTagName(variableVal)[i]; // get the variable
+    	var x = xmlDoc.getElementsByTagName("NGA")[ngaInt];
+	var y = x.getElementsByTagName(variableVal)[0+i];
 	var xy = y.childNodes[0];
-	var z = x.getElementsByTagName("NAME")[i]; // get the name of the polity
+	var z = x.getElementsByTagName("NAME")[0+i];
 	var xz = z.childNodes[0];
-    	document.getElementById("show_variable").innerHTML = xy.nodeValue; // output
-
-	size = Object.keys(x.getElementsByTagName("NAME")).length; // get the number of polities in given NGA
-
-	var polities = "";
-	var count = 0;
-	for (j = 0; j < size; j++) { // get list of all of the polities and concatenate
-				
-		var a = x.getElementsByTagName("NAME")[j];
-		var b = a.childNodes[0];
-		var ab = b.nodeValue;
-		if (ab === xz.nodeValue) { // bold the current polity
-			polities = polities.concat(ab.bold()," ");
-		} else { 
-			polities = polities.concat(ab," "); 
-		}
-		count = count+1;
-	}
-	
-	document.getElementById("polity").innerHTML = polities; //output polity list
+    	document.getElementById("show_variable").innerHTML = xy.nodeValue;
+	document.getElementById("polity").innerHTML = xz.nodeValue;
 }
 
 function previousPolity() {
@@ -87,9 +74,10 @@ function previousPolity() {
     		getVar(i);
 	}
 }
+
 function nextPolity() {
   // display the previous polity, unless you are on the first polity 
-	if (i < size - 1) {
+	if (i < 2) { // THIS MUST BE CHANGED DYNAMICALLY TO ACCOUNT FOR THE MAXIMUM NUMBER OF POLITIES IN A GIVEN NGA
   		i++;
   		getVar(i);
 	}

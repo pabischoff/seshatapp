@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CATALOG>
-	<NGA name="Latium">
+	<NGA>
 		<POLITY>
 			<NAME>ItRomPr</NAME>
 			<SOCIAL>Actual: 4,500,000: 14 CE; 5,800,000: 117 CE; 5,000,000: 211 CE; 4,750,000: 274 CE Maximum Area: 5.0 Mm^2. [13] 5m km^2.</SOCIAL>
@@ -51,7 +51,7 @@ provinces had capital cities (e.g. Carthage in Africa Proconsularis, Epehsus in 
 			<BUREAUCRACY>"Viewed through the baroque rhetoric of a text like the Variae the bureaucracy appears hierarchically complex and numberous, and indeed gives the impression of being on par with the eastern civil service. The swelling of governmental apparatus and personnel was certainly one of the defining features of late antique society. By the end of the 4th century the state provided civil positions for an estimated 40,000 across the empire."[22]</BUREAUCRACY>
 		</POLITY>
 	</NGA>
-	<NGA name="Cuzco">
+	<NGA>
 		<POLITY>
 			<NAME>CuzcoLF</NAME>
 			<SOCIAL>Lorem Ipsum</SOCIAL>
@@ -74,7 +74,7 @@ provinces had capital cities (e.g. Carthage in Africa Proconsularis, Epehsus in 
 			<BUREAUCRACY>Lorem Ipsum</BUREAUCRACY>
 		</POLITY>
 	</NGA>
-	<NGA name="Cahokia">
+	<NGA>
 		<POLITY>
 			<NAME>USMisMW</NAME>
 			<SOCIAL>Lorem Ipsum</SOCIAL>
