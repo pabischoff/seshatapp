@@ -1,5 +1,6 @@
 <html>
 <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <style>
 </style>
 </head>
@@ -7,22 +8,32 @@
 
 <body>
 	<h1>Seshat Polity Explorer</h1>
-<p>Choose an NGA</p>
-<select id="nga">
-  <option value="0">Latium</option>
-  <option value="1">Cuzco</option>
-  <option value="2">Cahokia</option>
-</select>
-<p>Choose a variable<p>
-<select id="variable">
-  <option value="SOCIAL">Social Scale</option>
-  <option value="HIERARCHY">Hierarchical Complexity</option>
-  <option value="PROFESSIONS">Professions</option>
-  <option value="BUREAUCRACY">Bureaucracy characteristics</option>
-</select>
+<h2>Choose an NGA</h2>
 
-<p><input type="button" onclick="getVar()" value="Submit"></p>
-<p id="polity">Polity</p>
+<img src="nga.png" width="" height="" alt="NGAs" usemap="ngamap">
+<map name="ngamap" id="nga"><!-- each id correlates to the NGA's position in the XML file -->
+	  <area shape="rect" id="0" coords="523,109,546,126" alt="" href="#">
+	  <area shape="rect" id="1" coords="269,230,295,253" alt="" href="#">
+	  <area shape="rect" id="2" coords="237,115,263,136" alt="" href="#">
+</map>
+
+<h2>Choose a variable<h2>
+<img src="variables.png" width="1008" height="686" alt="Variables" usemap="#variablemap">
+<map name="variablemap" id="variable">
+  <area shape="rect" id="POLITY_POP" coords="58,220,208,264" alt="" href="#">
+  <area shape="rect" id="HIERARCHY" coords="152,116,330,164" alt="" href="#">
+  <area shape="rect" id="GOVERNMENT" coords="466,146,636,194" alt="" href="#">
+  <area shape="rect" id="MONETARY" coords="586,230,762,280" alt="" href="#">
+  <area shape="rect" id="INFRASTRUCTURE" coords="582,318,738,366" alt="" href="#">
+  <area shape="rect" id="INFOSYS" coords="552,434,722,488" alt="" href="#">
+  <area shape="rect" id="TEXTS" coords="362,476,554,522" alt="" href="#">
+  <area shape="rect" id="CAPITAL_POP" coords="106,416,284,466" alt="" href="#">
+  <area shape="rect" id="TERRITORY" coords="42,330,220,388" alt="" href="#">
+</map>
+
+<p><input type="button" onclick="getVar()" value="Submit" id="submission"></p>
+<h3 id="pol">Polity</h3>
+<p id="polity"></p>
 <p><input type="button" onclick="previousPolity()" value="Previous Polity">
 <input type="button" onclick="nextPolity()" value="Next Polity"></p>
 
@@ -31,14 +42,30 @@
 <p id="show_variable">Click Submit to get information for the first polity.</p>
 
  <script>
+//jquery stuff
+$("map[name=ngamap] area").on('click', function () { // get nga from map click
+    	ngaVal = $(this).attr('id'); 
+    	$('html, body').animate({
+        	scrollTop: $("#variable").offset().top
+    	}, 2000);
+});
+
+$("map[name=variablemap] area").on('click', function () { // get variable from map click
+    	variableVal = $(this).attr('id'); 
+    	$('html, body').animate({
+        	scrollTop: $("#submission").offset().top
+    	}, 2000);
+});
+
+// AJAX stuff
 var i = 0;
 
-function getVar() { //xml request
+function getVar() { //send xml, variable, and nga to showVar()
 		
-	var variable = document.getElementById("variable");
-	var variableVal = variable.options[variable.selectedIndex].value;
-	var nga = document.getElementById("nga");
-	var ngaVal = nga.options[nga.selectedIndex].value;
+	//var variable = document.getElementById("variable");
+	//var variableVal = variable.options[variable.selectedIndex].value;
+	//var nga = document.getElementById("nga");
+	//var ngaVal = nga.options[nga.selectedIndex].value;
    	var ngaInt = parseInt(ngaVal);
 
 	var xmlhttp = new XMLHttpRequest();
