@@ -12,25 +12,25 @@
 
 <img src="nga.png" width="" height="" alt="NGAs" usemap="ngamap">
 <map name="ngamap" id="nga"><!-- each id correlates to the NGA's position in the XML file -->
-	  <area shape="rect" id="0" coords="523,109,546,126" alt="" href="#">
-	  <area shape="rect" id="1" coords="269,230,295,253" alt="" href="#">
-	  <area shape="rect" id="2" coords="237,115,263,136" alt="" href="#">
+	  <area shape="rect" id="0" coords="523,109,546,126" alt="" href="#" value="Latium">
+	  <area shape="rect" id="1" coords="269,230,295,253" alt="" href="#" value="Cuzco">
+	  <area shape="rect" id="2" coords="237,115,263,136" alt="" href="#" value="Cahokia">
 </map>
 
 <h2>Choose a variable<h2>
 <img src="variables.png" width="1008" height="686" alt="Variables" usemap="#variablemap">
 <map name="variablemap" id="variable">
-  <area shape="rect" id="POLITY_POP" coords="58,220,208,264" alt="" href="#">
-  <area shape="rect" id="HIERARCHY" coords="152,116,330,164" alt="" href="#">
-  <area shape="rect" id="GOVERNMENT" coords="466,146,636,194" alt="" href="#">
-  <area shape="rect" id="MONETARY" coords="586,230,762,280" alt="" href="#">
-  <area shape="rect" id="INFRASTRUCTURE" coords="582,318,738,366" alt="" href="#">
-  <area shape="rect" id="INFOSYS" coords="552,434,722,488" alt="" href="#">
-  <area shape="rect" id="TEXTS" coords="362,476,554,522" alt="" href="#">
-  <area shape="rect" id="CAPITAL_POP" coords="106,416,284,466" alt="" href="#">
-  <area shape="rect" id="TERRITORY" coords="42,330,220,388" alt="" href="#">
+  <area shape="rect" id="POLITY_POP" coords="58,220,208,264" alt="" href="#" value="Polity Population">
+  <area shape="rect" id="HIERARCHY" coords="152,116,330,164" alt="" href="#" value="Levels of Hierarchy">
+  <area shape="rect" id="GOVERNMENT" coords="466,146,636,194" alt="" href="#" value="Government">
+  <area shape="rect" id="MONETARY" coords="586,230,762,280" alt="" href="#" value="Monetary System">
+  <area shape="rect" id="INFRASTRUCTURE" coords="582,318,738,366" alt="" href="#" value="Infrastructure">
+  <area shape="rect" id="INFOSYS" coords="552,434,722,488" alt="" href="#" value="Information System">
+  <area shape="rect" id="TEXTS" coords="362,476,554,522" alt="" href="#" value="Texts">
+  <area shape="rect" id="CAPITAL_POP" coords="106,416,284,466" alt="" href="#" value="Capital Population">
+  <area shape="rect" id="TERRITORY" coords="42,330,220,388" alt="" href="#" value="Polity Territory">
 </map>
-
+<p id="choice"><p>
 <p><input type="button" onclick="getVar()" value="Submit" id="submission"></p>
 <h3 id="pol">Polity</h3>
 <p id="polity"></p>
@@ -44,7 +44,8 @@
  <script>
 //jquery stuff
 $("map[name=ngamap] area").on('click', function () { // get nga from map click
-    	ngaVal = $(this).attr('id'); 
+    	ngaVal = $(this).attr('id');
+	ngaChoice = $(this).attr('value'); 
     	$('html, body').animate({
         	scrollTop: $("#variable").offset().top
     	}, 2000);
@@ -52,9 +53,15 @@ $("map[name=ngamap] area").on('click', function () { // get nga from map click
 
 $("map[name=variablemap] area").on('click', function () { // get variable from map click
     	variableVal = $(this).attr('id'); 
+	variableChoice = $(this).attr('value');
     	$('html, body').animate({
         	scrollTop: $("#submission").offset().top
     	}, 2000);
+	// output variable and nga choices before submission
+	choiceText1 = "You chose NGA: ";
+	choiceText2 = ", Variable: ";
+	choiceText = choiceText1.concat(ngaChoice,choiceText2,variableChoice);
+	document.getElementById("choice").innerHTML = choiceText;
 });
 
 // AJAX stuff
@@ -62,10 +69,6 @@ var i = 0;
 
 function getVar() { //send xml, variable, and nga to showVar()
 		
-	//var variable = document.getElementById("variable");
-	//var variableVal = variable.options[variable.selectedIndex].value;
-	//var nga = document.getElementById("nga");
-	//var ngaVal = nga.options[nga.selectedIndex].value;
    	var ngaInt = parseInt(ngaVal);
 
 	var xmlhttp = new XMLHttpRequest();
@@ -105,6 +108,7 @@ function showVar(xml, variableVal, ngaInt) {
 	}
 	
 	document.getElementById("polity").innerHTML = polities; //output polity list
+
 }
 
 function previousPolity() {
