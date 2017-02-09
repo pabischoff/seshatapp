@@ -1,14 +1,12 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <CATALOG>
 	<NGA>
 		<POLITY>
 			<NAME>ItRomPr</NAME>
 			<POLITY_POP>
-					<![CDATA[
-					<h3>Polity Population 50,000,000: 1 CE; [50,000,000-60,000,000]: 100 CE; [55,000,000-70,000,000]: 200 CE </h3>
-					<p> The standard population is estimated at 50 to 60 million in 117 CE. The most common estimate for the empire population is around 60 million, but a figure of 150 million is also conceivable, though highly unlikely (Scheidel 2004: 2-9). Another estimate is 50 million people (i.e. 5000 administrative units) at height (Black 2008, 181). 14 CE and 164 CE estimate based on: Frier, Bruce W. "Demography", in Alan K. Bowman, Peter Garnsey, and Dominic Rathbone, eds., The Cambridge Ancient History XI: The High Empire, A.D. 70–192, (Cambridge: Cambridge University Press, 2000), 827–54. </p>
-					]]>
+					&lt;h3&gt;Polity Population 50,000,000: 1 CE; [50,000,000-60,000,000]: 100 CE; [55,000,000-70,000,000]: 200 CE &lt;/h3&gt;
+					&lt;p&gt; The standard population is estimated at 50 to 60 million in 117 CE. The most common estimate for the empire population is around 60 million, but a figure of 150 million is also conceivable, though highly unlikely (Scheidel 2004: 2-9). Another estimate is 50 million people (i.e. 5000 administrative units) at height (Black 2008, 181). 14 CE and 164 CE estimate based on: Frier, Bruce W. "Demography", in Alan K. Bowman, Peter Garnsey, and Dominic Rathbone, eds., The Cambridge Ancient History XI: The High Empire, A.D. 70–192, (Cambridge: Cambridge University Press, 2000), 827–54. &lt;/p&gt;
 			</POLITY_POP>
 			<HIERARCHY>One guy is higher than the other guy</HIERARCHY>
 			<GOVERNMENT>Monarchy</GOVERNMENT>
