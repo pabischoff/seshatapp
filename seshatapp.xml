@@ -5,7 +5,7 @@
 		<POLITY>
 			<NAME>ItRomPr</NAME>
 			<POLITY_POP>
-					&lt;h3&gt;Polity Population 50,000,000: 1 CE; [50,000,000-60,000,000]: 100 CE; [55,000,000-70,000,000]: 200 CE &lt;/h3&gt;
+					&lt;p&gt;&lt;strong&gt;Polity Population: 50,000,000: 1 CE; [50,000,000-60,000,000]: 100 CE; [55,000,000-70,000,000]: 200 CE &lt;/h3&gt;
 					&lt;p&gt; The standard population is estimated at 50 to 60 million in 117 CE. The most common estimate for the empire population is around 60 million, but a figure of 150 million is also conceivable, though highly unlikely (Scheidel 2004: 2-9). Another estimate is 50 million people (i.e. 5000 administrative units) at height (Black 2008, 181). 14 CE and 164 CE estimate based on: Frier, Bruce W. "Demography", in Alan K. Bowman, Peter Garnsey, and Dominic Rathbone, eds., The Cambridge Ancient History XI: The High Empire, A.D. 70–192, (Cambridge: Cambridge University Press, 2000), 827–54. &lt;/p&gt;
 &lt;p&gt; Imperial censuses 28 BCE - 48 CE  (Brunt 1971, 1987) (These numbers (million) refer only to Roman citizens, who were a small proportion of the population): &lt;/p&gt;
 					&lt;ul&gt;&lt;li&gt;4,063,000: 28 BCE&lt;/li&gt;
@@ -39,16 +39,427 @@
 						&lt;li&gt;Issawi 1981&lt;/li&gt;
 						&lt;li&gt; Russell, J C (1958) Late and Medieval Population. Transactions of the American Philosophical Society. New Series. Vol 48. No 3. pp. 1-152 citing Beloch, 1886, Die Bevolkerung de griechnisch-romischen welt, Berlin&lt;/li&gt;
 						&lt;li&gt;Scheidel, W ed. (2013) ORBIS, The Stanford Geospatial Network Model of the Roman World, Stanford University Libraries&lt;/li&gt;
-						&lt;li&gt;(Stathakopoulos 2008, 310) Jeffreys E, Haldon J and Cormack R eds. 2008. The Oxford Handbook of Byzantine Studies. Oxford University Press. Oxford.&lt;/li&gt;&lt;/ul&gt;
+						&lt;li&gt;(Stathakopoulos 2008, 310)&lt;/li&gt; 
+						&lt;li&gt;Jeffreys E, Haldon J and Cormack R eds. 2008. The Oxford Handbook of Byzantine Studies. Oxford University Press. Oxford.&lt;/li&gt;&lt;/ul&gt;
 			</POLITY_POP>
-			<HIERARCHY>One guy is higher than the other guy</HIERARCHY>
-			<GOVERNMENT>Monarchy</GOVERNMENT>
-			<MONETARY>Trumped up trickle down</MONETARY>
-			<INFRASTRUCTURE>Crumbling</INFRASTRUCTURE>
-			<INFOSYS>Pidgeons</INFOSYS>
-			<TEXTS>I don't read much.</TEXTS>
-			<CAPITAL_POP>A few</CAPITAL_POP>
-			<TERRITORY>Get off my lawn</TERRITORY>
+			<HIERARCHY>&lt;p&gt;&lt;strong&gt;Hierarchical Complexity&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Settlement hierarchy: 7&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The capital (Rome)
+: 2. Provincial capitals (Ephesus, Lugdunum)
+:: 3. Client States/Kingdoms (Cappadocia, Egypt, Numidia)
+::: 4. Colonies/coloniae (Pompeii in Italy, Cremna in Anatolia, Camulodunum in England) and Municipia (Volubilis in Mauretania)
+:::: 5. Tributary communities, not necessarily urbanized
+::::: 6. Village/vici
+:::::: 7. Pagi (rural settlements)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In lower population density regions there could be no difference between vici and pagi. There could also be some overlap between provincial capitals and coloniae/municipia. As a result, the code &amp;#39;6 levels&amp;#39; corresponds to more populous regions, whilst in sparser populated regions the code &amp;#39;4 levels&amp;#39; should be used.  (Edmondson 2006)   (Gleason 2006) &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Administrative levels: [8-9]&lt;/strong&gt;  &lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Emperor
+: &amp;quot;... in 30 BC, Octavian was left in sole control of the Roman empire. As the first Roman emperor, he created a new system of government, taking the name Augustus (&amp;#39;Revered One&amp;#39;).&amp;quot; (Pollard and Berry 2012, 34) 
+: &amp;quot;Augustus, like all wealthy Romans, employed procurators, agents of the freedman class, in the administration of his private fortune.&amp;quot; (Mattingly 1910, [https://archive.org/stream/imperialcivilser00mattuoft/imperialcivilser00mattuoft&lt;em&gt;djvu.txt]) 
+: &amp;quot;The rise of the freedman class is one of the most striking social phenomena of the first century of the Empire. higher degree of the freedmen of the Emperor.&amp;quot;  (Mattingly 1910, [https://archive.org/stream/imperialcivilser00mattuoft/imperialcivilser00mattuoft&lt;/em&gt;djvu.txt]) 
+:: 2. Imperial Chamberlain&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;_ Central government_ &lt;span style="color:blue"&gt;Modern reference for central government needed&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;: 2. Imperial Bureau (scrinia) e.g. financial chief (a rationibus)
+:: &amp;quot;The power of the imperial freedmen centred in the first century round the great imperial bureaux (scrinia), the &amp;#39;ab epistulis/&amp;#39; a libellis,&amp;#39; &amp;#39;a studiis,&amp;#39; and the great financial post of &amp;#39;a rationibus.&amp;#39;&amp;quot; (Mattingly 1910, [https://archive.org/stream/imperialcivilser00mattuoft/imperialcivilser00mattuoft&lt;em&gt;djvu.txt]) 
+:: old State treasury (aerarium Saturni), new  imperial treasury (fiscus). the fiscus created a &amp;quot;new class of officials&amp;quot; &amp;quot;&amp;#39;a rationibus&amp;#39; down to Hadrian&amp;#39;s time was normally a freedman&amp;quot;  (Mattingly 1910, [https://archive.org/stream/imperialcivilser00mattuoft/imperialcivilser00mattuoft&lt;/em&gt;djvu.txt]) 
+:: 3. Salaried officials and scribes (ab epistulis, a libellis, a studiis) &lt;span style="color:blue"&gt;Are these latin terms job titles? What were their responsibilities? How many levels in their departments?&lt;/span&gt;
+::: &amp;quot;The main items of expenditure were the maintenance of the army, the expenses of provincial government, the salaries of officials, the corn-supply and police of Rome, the maintenance of religion, the building of temples and other public works, and the public roads and aqueducts.&amp;quot; (Mattingly 1910, [https://archive.org/stream/imperialcivilser00mattuoft/imperialcivilser00mattuoft&lt;em&gt;djvu.txt]) 
+::: 4. Financial officials &amp;#39;praefecti classis,&amp;#39; &amp;#39;procurators hereditatium,&amp;#39; &amp;#39;patrimonii&amp;#39; &lt;span style="color:blue"&gt;Are these latin terms job titles? What were their responsibilities?&lt;/span&gt;
+:::: &amp;quot;Freedmen occur in the first century as &amp;#39;praefecti classis,&amp;#39; &amp;#39;procurators hereditatium,&amp;#39; &amp;#39;patrimonii,&amp;#39; etc., whereas after Hadrian knights take their place.&amp;quot; (Mattingly 1910, [https://archive.org/stream/imperialcivilser00mattuoft/imperialcivilser00mattuoft&lt;/em&gt;djvu.txt]) 
+:::: 5. &lt;span style="color:blue"&gt;Lower?&lt;/span&gt;
+::::: &amp;quot;The class on which the Emperors mainly depended for the supply of their financial officials was that of the knights ... &amp;quot;after Hadrian, they practically monopolized all but those of subordinate importance&amp;quot; however before Hadrian imperial freedman had a more influence and could aspire to the top posts. (Mattingly 1910, [https://archive.org/stream/imperialcivilser00mattuoft/imperialcivilser00mattuoft&lt;em&gt;djvu.txt]) 
+:: 2. Official related to aerarium militare
+::: special military chest founded by Augustus (aerarium militare)  (Mattingly 1910, [https://archive.org/stream/imperialcivilser00mattuoft/imperialcivilser00mattuoft&lt;/em&gt;djvu.txt]) 
+:: 2. Official related to patrimonium
+::: the Emperor&amp;#39;s purse (patrimonium)  (Mattingly 1910, [https://archive.org/stream/imperialcivilser00mattuoft/imperialcivilser00mattuoft_djvu.txt]) &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Provincial government&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;: 2. Provincial governors (Pollard and Berry 2012, 38)  of Senatorial provinces (quaestors)
+:: Senatorial and Imperial provinces. In 27 BCE provinces divided between Emperor and Senate. &amp;quot;The old system of quaestors might be continued in the senatorial provinces; but in the imperial, the financial officer must be no magistrate, but a deputy, depending on the Emperor and on him alone.&amp;quot; (Mattingly 1910, [https://archive.org/stream/imperialcivilser00mattuoft/imperialcivilser00mattuoft&lt;em&gt;djvu.txt]) 
+:: &amp;quot;Whilst in the senatorial provinces we still find quaestors, working under the supervision of the proconsuls, in the imperial there appear procurators of the Emperor, subordinate to, yet not directly dependent on, the legates.&amp;quot; (Mattingly 1910, [https://archive.org/stream/imperialcivilser00mattuoft/imperialcivilser00mattuoft&lt;/em&gt;djvu.txt]) &lt;/p&gt;
+
+&lt;p&gt;: 2.  Provincial governors (Pollard and Berry 2012, 38)  of Imperial provinces (procurator Augusti)
+:: &amp;quot;Whilst in the senatorial provinces we still find quaestors, working under the supervision of the proconsuls, in the imperial there appear procurators of the Emperor, subordinate to, yet not directly dependent on, the legates.&amp;quot; (Mattingly 1910, [https://archive.org/stream/imperialcivilser00mattuoft/imperialcivilser00mattuoft&lt;em&gt;djvu.txt]) 
+:: Senatorial and Imperial provinces. In 27 BCE provinces divided between Emperor and Senate. &amp;quot;The old system of quaestors might be continued in the senatorial provinces; but in the imperial, the financial officer must be no magistrate, but a deputy, depending on the Emperor and on him alone.&amp;quot; (Mattingly 1910, [https://archive.org/stream/imperialcivilser00mattuoft/imperialcivilser00mattuoft&lt;/em&gt;djvu.txt]) 
+:: &amp;quot;The procuratorships of provinces were posts of high trust and importance, and Augustus must have seen that they could not well be entrusted to freedmen. He therefore limited the latter to the subordinate positions, and entrusted the head posts to men of equestrian rank, whose superior position was reflected in the title of &amp;#39;procurator Augusti,&amp;#39; in contrast to the purely private &amp;#39;procurator.&amp;#39; The fact of this change is certain, but some details of its institution remain obscure.&amp;quot; However, freedman &amp;quot;occasionally&amp;quot; attained the procuratorship of a province.  (Mattingly 1910, [https://archive.org/stream/imperialcivilser00mattuoft/imperialcivilser00mattuoft_djvu.txt]) &lt;/p&gt;
+
+&lt;p&gt;::: 3.. Decurions, local magistrates
+:::: in 1 CE Decurions were required to be at least 25 years old and meet a property qualification of &amp;#39;HS 100,000&amp;#39;. There was also an entrance fee.  (Donahue, 2004, 93 [http://books.google.co.uk/books?id=yWhLOa-ZrYEC&amp;amp;dq=principate+local+magistrate&amp;amp;source=gbs&lt;em&gt;navlinks&lt;/em&gt;s]) .
+:::: 4. vici magistri (village headmen)
+:::::&lt;/p&gt;
+
+&lt;p&gt;:: 2. Client Kingdoms
+:::&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Egyptian government&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;: 2. Prefect
+:: Appointed by Rome (Peacock 2000, 416) &lt;/p&gt;
+
+&lt;p&gt;:: 3. Procurators
+::: Appointed by Rome (Peacock 2000, 416) 
+::: Includes finance officer dioiketes (and other department heads)&lt;/p&gt;
+
+&lt;p&gt;::: 4. Epistrategoi
+:::: Appointed by Rome (Peacock 2000, 416) 
+:::: Regional administrator, 4 in total&lt;/p&gt;
+
+&lt;p&gt;:::: 5. Strategos
+::::: Appointed by Greco-Egyptians (Peacock 2000, 416) 
+::::: 30 in total&lt;/p&gt;
+
+&lt;p&gt;:::: 5. Accountant
+::::: Appointed by Greco-Egyptians (Peacock 2000, 416) 
+::::: auditor of the nome&lt;/p&gt;
+
+&lt;p&gt;::::: 6. District scribe
+:::::: Appointed by Greco-Egyptians (Peacock 2000, 416) &lt;/p&gt;
+
+&lt;p&gt;:::::: 7. Village scribe
+::::::: Appointed by Greco-Egyptians (Peacock 2000, 416) &lt;/p&gt;
+
+&lt;p&gt;::::::: 8. Village Elders &lt;span style="color:blue"&gt;In what way did the village scribe command the village elder?&lt;/span&gt;
+:::::::: Elected or co-opted (Peacock 2000, 416) &lt;/p&gt;
+
+&lt;p&gt;:::::::: 9. Liturgists
+::::::::: Compulsory public service (Peacock 2000, 416) &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Religious levels: 4&lt;/strong&gt;  &lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Pontifex maximus
+: 2. Colleges (flamines, augurs, pontifices, vestals)
+:: Three colleges of religious officials. 1. augurs 2. decemviri sacris faciundis 3. pontifices
+::  &lt;span style="color:blue"&gt;3. high priests of imperial cult in provinces -- this level is present for the Middle Roman Republic. is this not true of the Late Roman Republic? Principate?&lt;/span&gt;
+::: 4. priests for a deity (running a specific temple or sanctuary)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;: &amp;quot;Freelance&amp;quot; religious officials (soothsayers, oracles, seers, etc).&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Mithraism&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Cult of Mithra spread from the Parthian Empire to Rome (originated in India? bronze age?). &amp;quot;Contrary to other religions of the same type, such as the cults of Isis and Osiris, Serapis, Dionysus (all well-known examples), Mithraicism eschewed any external manifestations and depended only on its initiatory nature to recruit its followers. ... it gradually became a common faith for soldiers, civil servants, merchants ... The members joined a spirituality of an initiatory type ... shared with a large group of solar faiths ... that promised both a life near to the deity and a personal redemption.&amp;quot; (Decharneux (2004, 94) Decharneux, Baudouin. Mithra&amp;#39;s Cult: An Example of Religious Colonialism in Roman Times. Draper, Jonathan A. ed. 2004. Orality, Literacy, and Colonialism in Antiquity. BRILL. &lt;/p&gt;
+
+&lt;p&gt;&amp;quot;From the end of the first century B.C.E. we have evidence of a cult coming from the East and gradually and discretely conquering the Roman army and administration (Daniels). This god, previously unknown to the Romans, was called Mithra. Some historians believe (see Plutarch, Pomp. 24.7) that the notorius Cilician pirates defeated by Pompeius propagated this cult when deported in Calabria. We now believe that it was a late transformation of the god Mithra, the friendly protector of contracts .... and defender of true and just causes.&amp;quot; (Decharneux 2004, 93) Decharneux, Baudouin. Mithra&amp;#39;s Cult: An Example of Religious Colonialism in Roman Times. Draper, Jonathan A. ed. 2004. Orality, Literacy, and Colonialism in Antiquity. BRILL. &lt;/p&gt;
+
+&lt;p&gt;&amp;quot;We must also stress that this god retained, in his manifestation in the Roman Empire, his essential characteristics of friend and guardian of contracts.&amp;quot; (Decharneux 2004, 93-94) Decharneux, Baudouin. Mithra&amp;#39;s Cult: An Example of Religious Colonialism in Roman Times. Draper, Jonathan A. ed. 2004. Orality, Literacy, and Colonialism in Antiquity. BRILL. &lt;/p&gt;
+
+&lt;p&gt;&amp;quot;Mithra probably won over even the imperial house. We are wary about the well-known initiation of the emperor Nero to the mysteries of the Magi through Tiridates (see Turcan 1989:237). However, it seems that the emperor Commodus (192) was an unworthy adept of the mysteries, because he was suspected of having killed a fellow-adept during a ceremony simulating a ritual sacrifice. The imperial house had a much worthier adept in Diocletian and his colleagues of the Tetrarchy: Galerius and Licinius. The god is then called the fautor imperii sui, the &amp;quot;protector of the imperial power&amp;quot; (Inscription of Carnuntum in 307).&amp;quot; (Decharneux 2004, 100) Decharneux, Baudouin. Mithra&amp;#39;s Cult: An Example of Religious Colonialism in Roman Times. Draper, Jonathan A. ed. 2004. Orality, Literacy, and Colonialism in Antiquity. BRILL. &lt;/p&gt;
+
+&lt;p&gt;Mithraism: &amp;quot;on the social level people learned, in the &amp;#39;Persic Cavern&amp;#39;, to respect the contract linking the human being to the cosmos and to the gods, and then, at least in an implicit way, to respect the emperors, who were divine beings, as intermediaries between the sky and the earth. The faithfulness to a vivifying cosmic order was thus accompanied by faithfulness to the one representing this order on earth. It is not surprising, then, that Mithra was invoked as Jupiter Dolichenus for the salvation of the emperor. In time, a cult ascribed to the enemies gets mixed up with the worship of the protecting gods of Rome!&amp;quot; (Decharneux 2004, 100) Decharneux, Baudouin. Mithra&amp;#39;s Cult: An Example of Religious Colonialism in Roman Times. Draper, Jonathan A. ed. 2004. Orality, Literacy, and Colonialism in Antiquity. BRILL. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Military levels: 9&lt;/strong&gt;    &lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Emperor (commander-in-chief) / Imperator
+: Augustus: &amp;quot;To ensure that he could not be overthrown in another round of civil war, he established himself as commander-in-chief of the army, with imperium (the power to raise and command armies) greater than that of the senators who typically governed the provinces and commanded armies in the field.  (Pollard and Berry 2012, 34) 
+: &amp;quot;At the top of the hierarchy was the emperor himself, commander-in-chief of the Roman army by virtue of his possession of imperium maius, a power to raise and command armies that out-ranked that of anyone else.&amp;quot; (Pollard and Berry 2012, 37-38) 
+: 2. legatus Augusti (controlled a military province)
+:: &amp;quot;provinces with a legionary garrison were governed by a legatus Augusti pro praetore, or &amp;#39;imperial legate with praetor&amp;#39;s powers&amp;#39;. He was drawn from the Senate as a personal appointee of the emperor, governing and commanding in the name of the emperor.&amp;quot; (Pollard and Berry 2012, 38) 
+:: &amp;quot;The governors of a few provinces (notably Egypt, but also Mesopotamia) were equites (&amp;#39;knights&amp;#39;), members of the next wealthiest group in Roman society after the senators, the equestrian order.&amp;quot; (Pollard and Berry 2012, 38) 
+:: 3. legatus legionis (commanded a legion)
+::: &amp;quot;If there were multiple legions in a province, they were commanded by men with powers delegated to them by the provincial governors, and each legionary commander was known as a legatus legionis (&amp;#39;legionary legate&amp;#39;).&amp;quot; (Pollard and Berry 2012, 38) 
+::: &amp;quot;Broadly speaking, paper organization of imperial legions was very similar to that of the late Republican period and remained so until the 3rd century AD. A legion was still organized in ten cohorts, each typically made up of six centuries of 80 men each.&amp;quot; (Pollard and Berry 2012, 36) 
+::: 4. tribunus militum (lead a cohort)
+:::: &amp;quot;Cohorts, centuries and contubernia were the regular subunits of the legion&amp;quot;.  (Pollard and Berry 2012, 37) 
+:::: &amp;quot;Tribunes, like the legionary legate (commander), were drawn from Rome&amp;#39;s social and political elite, the senatorial and equestrian orders, and were not professional soldiers.&amp;quot; (Pollard and Berry 2012, 39) 
+:::: &amp;quot;Josephus (Jewish War 6.131) mentions 1,000 men assigned to each tribune during combat in Jerusalem in AD 70.&amp;quot; (Pollard and Berry 2012, 39) 
+::: 4. dux, praepositus or legate (lead a vexillation)
+:::: &amp;quot;Cohorts, centuries and contubernia were the regular subunits of the legion, but it could also be broken down into vexillations, temporary (in theory, at least) detachments named after the vexillum (flag) standard they carried in place of the legion&amp;#39;s eagle. Using vexillations, typically 1,000 or 2,000 men drawn from a particular legion, was common practice to avoid moving the whole legion far from its post when troops were needed to deal with a crisis or mount a campaign in another province. This was particularly common from the 2nd century AD, when legions tended to settle into long-term locations and permanent fortresses, but we find evidence of their vexillations across the empire, for example in the Jewish Revolt of AD 66-70.&amp;quot;  (Pollard and Berry 2012, 37) 
+:::: &amp;quot;Large legionary vexillations, with attached auxiliaries, were typically commanded by senatorial commanders with titles such as dux, praepositus or legate, or sometimes by very senior centurions. Smaller detachments for policing or construction duties might be commanded by centurions.&amp;quot;  (Pollard and Berry 2012, 37) 
+:::: 5. praefectus castrorum (prefect of the camp)
+::::: &amp;quot;The praefectus castrorum (&amp;#39;prefect of the camp&amp;#39;) was effectively third-in-command of the legion (after the senatorial legate and senatorial tribune) and had special responsibility for fortifications, sieges and artillery.&amp;quot; (Pollard and Berry 2012, 39) 
+::::: 6. primus pilus
+:::::: &amp;quot;... the five centurions of the first cohort, the primi ordines (&amp;#39;men of the first rank&amp;#39;) were of higher rank than any other centurion and there was progression within that cohort.&amp;quot; &amp;quot;The primus pilus was the highest-ranking centurion in the legion, followed by the princeps prior, hastatus prior, princeps posterior and finally hastatus posterior.&amp;quot;  (Pollard and Berry 2012, 39) 
+:::::: 7. princeps prior &amp;#39;&amp;#39;are some of these ranks at same level of command. could a spearman at the front really give orders to an officer at the back?&amp;#39;&amp;#39;
+::::::: 8. hastatus prior  &amp;#39;&amp;#39;possibly more likely order: 6. primus pilus; 7. pilus prior &amp;amp; other higher-ranking centuriones; 8. ordinary centuriones; 9. milites&amp;#39;&amp;#39;
+:::::::: 9. princeps posterior
+::::::::: 10. hastatus posterior
+:::::::::: 11. Uncommissioned legionary
+::::: 6. Centurio
+:::::: &amp;quot;Each of the ten cohorts in a legion, except for the first, had six centurions ... Most scholars believe that the titles of centurions in the second to tenth cohorts did not denote any particular rank or seniority. (Pollard and Berry 2012, 39) 
+::::::: &amp;quot;The centuries were subdivided into contubernia (singular, contubernium) of eight men. This much is relatively clear, and implies a legion of 4,800 at full strength.&amp;quot;  (Pollard and Berry 2012, 36) 
+:::::: 7. Contubernia (e.g. Optio)
+::::::: Among ranked men of a legion there was a distinction between principales and immunes. principales: &amp;quot;the title optio (&amp;#39;orderly&amp;#39;, typically assisting a centurion), tesserarius (bearer of the password), standard-bearers (aquilifer, signifer, imaginifer) and senior clerical officials.&amp;quot; Activity of the immunes &amp;quot;includes medical orderlies, surveyors, metalworkers, clerks, musicians and others.&amp;quot;  (Pollard and Berry 2012, 40-41) 
+::::::: 8. legionary (noncommissioned)
+:::::::: &amp;quot;The ordinary soldiers of the legions were known as milites (&amp;#39;soldiers&amp;#39;, singular miles)&amp;quot;  (Pollard and Berry 2012, 40) &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Decharneux, Baudouin. Mithra&amp;#39;s Cult: An Example of Religious Colonialism in Roman Times. Draper, Jonathan A. ed. 2004. Orality, Literacy, and Colonialism in Antiquity. BRILL.&lt;/li&gt;
+&lt;li&gt;Donahue, J (2004) The Roman Community at Table During the Principate, University of Michigan Press&lt;/li&gt;
+&lt;li&gt;Edmonson, J (2006) Cities and Urban Life in the Western Provinces of the Roman Empire 30 BCE - 250 CE. in Potter, D ed. Companion to the Roman Empire, Wiley-Blackwell&lt;/li&gt;
+&lt;li&gt;Gleason, M (2006) Greek Cities Under Roman Rule, in Potter, D ed. Companion to the Roman Empire, Wiley-Blackwell &lt;/li&gt;
+&lt;li&gt;Mattingly, H. 1910. The imperial civil service of Rome. Cambridge University Press. Cambridge.&lt;/li&gt;
+&lt;li&gt;Peacock, D in Shaw, I. 2000. The Oxford History of Ancient Egypt. Oxford University Press. Oxford&lt;/li&gt;
+&lt;li&gt;Pollard, N, Berry, J (2012) The Complete Roman Legions, Thames and Hudson, London&lt;/li&gt;
+&lt;/ul&gt;
+</HIERARCHY>
+			<GOVERNMENT>&lt;p&gt;&lt;strong&gt;Government&lt;/strong&gt;     &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Occupational Complexity&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Professional military officers: present&lt;/strong&gt; The highest officers in the Roman military system were usually senators not professionals. There were, however, professional junior officers at least from the Roman Principate.&lt;/p&gt;
+
+&lt;p&gt;&amp;quot;Typically the men who commanded armies and legions were senators. There were no military specialists in Roman government and no imperial high command. All senators alternated brief periods of military command with administrative posts, participation in domestic politics and careers as legal advocates. As military commanders they were, to a great extent, amateurs, even though most did a brief spell as a junior officer (tribune) in a legion. They would have depended on the professional junior officers (tribunes and centurions) as well as the training and discipline of the legionaries themselves to win battles.&amp;quot;&amp;quot; (Pollard and Berry 2012, 38) &lt;/p&gt;
+
+&lt;p&gt;&amp;quot;Tribunes, like the legionary legate (commander), were drawn from Rome&amp;#39;s social and political elite, the senatorial and equestrian orders, and were not professional soldiers. They alternated military service with political, judicial and administrative duties.&amp;quot; (Pollard and Berry 2012, 39) &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Professional soldiers: present&lt;/strong&gt;   Professional soldiers were present from the beginning of the Roman Principate. &amp;quot;Augustus&amp;#39; main military reforms had the effect of turning the army into a standing force of long-service professionals, instead of the part-time citizen force of the Republic.&amp;quot; &amp;quot;Augustus&amp;#39; professionalization of the army entailed creating regular, empire-wide terms of service. In theory, at least, soldiers signed up for a fixed length of service, received regular pay at standard rates set by the state and retired with a bonus provided by the state.&amp;quot; (Pollard and Berry 2012, 34)  Becoming a legionary involved a choice for a professional career. There were professional auxiliaries and &amp;#39;fleet personnel&amp;#39;. (Fields, 2006, 35) &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Professional priesthood: present&lt;/strong&gt;   Early Roman cults were funded by regular public offerings, large individual donations, and payment for services. The hierarchy could also profit from land ownership. Professionalism of the priesthood likely pre-dates the Roman era as similar patterns are evident in Greek and Egyptian civilization. When the state provided gifts, it was often in the form of a lavish construction, such as a new temple. Examples: priests of Isis were &amp;quot;full-time religious professionals&amp;quot;  (Grant and Kitzinger 1988, 938) ; Vestals were &amp;quot;supported by the state and were full-time professional clergy, along with the Priestess of Ceres and Proserpina.&amp;quot;  (Flower ed. 2004, 143)  The Flamen Dialis (the chief priest of Jupiter) was also a professional. He had to follow so many restrictive rules that he was effectively restricted to priestly duties. He could for example not touch horses, iron, etc, and he was not allowed to stand for election. Some priests, however, were not professional. These included the pontifices.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bureaucracy characteristics&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Full-time bureaucrats: present&lt;/strong&gt;    There were salaried officials who worked in the Imperial Bureaux (scrinia) (Mattingly 1910, [https://archive.org/stream/imperialcivilser00mattuoft/imperialcivilser00mattuoft&lt;em&gt;djvu.txt]) 
+of the Roman Principate. The new imperial treasury (fiscus) (the old state treasury was known as aerarium Saturni) created a &amp;quot;new class of officials&amp;quot; ... &amp;quot;&amp;#39;a rationibus&amp;#39; down to Hadrian&amp;#39;s time was normally a freedman.&amp;quot;  (Mattingly 1910, [https://archive.org/stream/imperialcivilser00mattuoft/imperialcivilser00mattuoft&lt;/em&gt;djvu.txt]) Salaries of officials were part of government expenditure: &amp;quot;The main items of expenditure were the maintenance of the army, the expenses of provincial government, the salaries of officials, the corn-supply and police of Rome, the maintenance of religion, the building of temples and other public works, and the public roads and aqueducts.&amp;quot; (Mattingly 1910, [https://archive.org/stream/imperialcivilser00mattuoft/imperialcivilser00mattuoft_djvu.txt]) &lt;/p&gt;
+
+&lt;p&gt;&amp;quot;At its largest extent, in the fourth century, the imperial government had somewhat over thirty thousand functionaries ... in the earlier centuries, when the empire was at the height of its power and glory, it employed only a fraction of that number.&amp;quot; ... &amp;quot;Fourth cent., A. H. M. Jones (1964), 1057 n.44. The size of the administration in earlier centuries is harder to estimate: Eck (1980: 16) counts some 10,000 in the provinces under Trajan, mostly seconded soldiers ...; independently R. F. Tannenbaum (private communication) estimates a total of some 10,000-12,000 including Rome and Italy, but excluding the central and local adinistration of Egypt.&amp;quot; (Lendon 1997, 3) Lendon, J. E. 1997. Empire of Honour: The Art of Government in the Roman World. Oxford University Press. Oxford. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Source of support: state salary&lt;/strong&gt;    There were salaried officials who worked in the Imperial Bureaux (scrinia). (Mattingly 1910, [https://archive.org/stream/imperialcivilser00mattuoft/imperialcivilser00mattuoft_djvu.txt]) &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Examination system:    absent&lt;/strong&gt;    There was no examination system for the Roman bureaucracy.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Merit promotion:    inferred absent&lt;/strong&gt;    Roman administration was typically formed out of a class of hereditary aristocrats. Distinctions between classes of legionary and distinctions between age and experience within the army had been eliminated by Marius in 105 BCE (Dupuy and Dupuy 2007)  and the Illyrian emperors demonstrate that &amp;quot;low born&amp;quot; individuals could make it to the top of the administrative hierarchy. Since there was no general policy of merit promotion in the Roman bureaucracy - and the promotion of low-born individuals to position of power might be considered a matter of &amp;quot;politics&amp;quot; among aristocrats - the code is inferred absent.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Specialized government buildings:    present&lt;/strong&gt;     The first senate building, the Curia Hostilia, existed from about 600 BCE.  (Cornell 1995, 94)  The first paving of the Roman Forum occurred around 575-625 BCE.  (Cornell 1995, 100)  The first coin minted in Rome occurred about 269 BCE (one in Neapolis produced coins slightly earlier, around 281 BCE) and the first state archives was created in 78 BCE. Other buildings include: granaries and storehouses.&lt;/p&gt;
+
+&lt;p&gt;Buildings of the imperial bureaucracy, such as the Curia Julia. The Curia Julia was one of the main meeting places of the Roman Senate (later rebuilt under Diocletian after a fire in 283 CE).  (http://dlib.etc.ucla.edu/projects/Forum/reconstructions/CuriaIulia&lt;em&gt;1)  The Senate also often met in appropriate temples. [http://dlib.etc.ucla.edu/projects/Forum/reconstructions/CuriaIulia&lt;/em&gt;1]  The old Roman treasury - the aerarium Saturni - was for a time housed in the basement of the Temple of Saturn. There were lots of multi-purpose government buildings: basilicas, imperial fora, and porticos, which were utilized for government functions, such as official meetings or court hearings.Offices of local magistrates and town council buildings were housed in separate buildings. There were market buildings (the Markets of Trajan in Rome). Bathhouses proliferated. Other buildings include: granaries and storehouses, mints and state archives.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Law&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formal legal code: present&lt;/strong&gt;    A formal legal code was first founded in the Twelve Tables of 450-449 BCE. Law thereafter was based on precedent. Our sources of knowledge of Roman law include the forensic speeches of Cicero; the Institutes of Gaius textbook (from 160 CE); and, much later, the sixth century CE Corpus Ius Civilis of Justinian. Wax tablets and papyri (contracts and wills etc.) also provide information on Roman law.  (Tellegen-Couperus, 2002, 66)  However, before this time restrictions on funerary extravagance, from the start of the 6th century, may suggest the Twelve Tables laws (of the Early Republic) codified an existing body of law and legal practices.  (Cornell 1995, 106) &lt;/p&gt;
+
+&lt;p&gt;The constitutio Antoniniana of 212 CE brought an end to the distinction between civis and peregrius. (Mousourakis 2007)  Social and legal distinctions were redrawn between honestiores (those with dignitas, public standing) and humiliores (those without). &amp;quot;Mandata&amp;quot; were directions from Emperor to provincial governors and state official.  (Mousourakis 2007, 161)  The range of legal sanctions consisted was determined by social standing: aggravated execution, forced labour, beatings, and torture were reserved for slaves and humiliore), whereas fines and exile were more common for honestiores. The exception were for conspirators against an emperor who, despite their high standing, were often brutally tortured and executed. Long-term custodial imprisonment was unknown as a punishment.&lt;/p&gt;
+
+&lt;p&gt;Writing c200 CE &amp;quot;Papinian, perhaps the authority on law most respected in late antiquity, listed the sources of the ius civile as statutes (leges), popular resolutions (plebiscita), senatorial enactments (senatusconsulta), decrees of emperors (decreta principum) and the authoritative pronouncements of men learned in law, the jurists (auctoritas prudentium). To these was added the ius honorarium, the law contained in the Edict of the praetor, who, under the Republic and Early Empire administered law in Rome; this form of law derived its name from the praetor&amp;#39;s magistracy (honos) and was held to &amp;#39;assist, supplement or amend&amp;#39; the ius civile.&amp;quot;. (Harries 2001, 11) Harries, Jill. 2001. Law and Empire in Late Antiquity. Cambridge University Press. Cambridge. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Judges:    absent&lt;/strong&gt;   Professional judges did not exist until the Roman Dominate although at that time their precise role vis-a-vis that of Imperial officials is a matter of debate.  (Mousourakis 2007, 163)  Before this time there were no judges as a distinct profession in the Roman system of law. Local magistrates dealt with local matters, provincial governors dealt with provincial matters, and the praetors often dealt with cases in Rome. The Roman people could be duly convened as a final court of appeal in cases involving citizens.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Courts: absent&lt;/strong&gt; &amp;quot;The criminal law owed much to the reforms of two past lawgivers, the proto-emperor, L. Cornelius Sulla (dictator and consul, 81-80 BC), and the emperor Augustus. Sulla established a number of courts (quaestiones) to try various criminal offences, such as murder and poisoning (or use of charms), or forgery; in the statutes he would have defined the crime and the penalty. In other areas of criminal law, the framework supplied for later developments by the Leges Iuliae, the legislation of Augustus, predominates, with whole sections of the imperial law-codes devoted to imperial enactments relevant to the Julian laws on adulteries, corrupt solicitation (ambitus), extortion (repetundae), treason (maiestas) and on violence).&amp;quot; (Harries 2001, 12) Harries, Jill. 2001. Law and Empire in Late Antiquity. Cambridge University Press. Cambridge.  &amp;quot;As jury-courts fell out of use under the Early Empire, to be replaced by hearings before a single magistrate or judge, the courts established by the criminal statutes ceased to operate, but the statues themselves remained, as they specified offence and punishment. People prosecuted for murder, poisoning, or other relevant offences were still prosecuted under Sulla&amp;#39;s law and liable to its penalties.&amp;quot; (Harries 2001, 12) Harries, Jill. 2001. Law and Empire in Late Antiquity. Cambridge University Press. Cambridge.  &amp;#39;&amp;#39;Note (DH): the quaestiones were a sort of ad-hoc special tribunal - it refers to the section of law that the case was under, not an actual building, so &amp;#39;court&amp;#39; is a bit of a stretch on the translation in the quote. Trials were still held basically wherever there was space -- bassilicae, fora, etc.&amp;#39;&amp;#39;&lt;/p&gt;
+
+&lt;p&gt;During the Roman Dominate administration of justice was &amp;quot;thoroughly bureaucratized&amp;quot; and &amp;quot;regular courts, special courts were established to deal with particular matters and categories of persons.&amp;quot;  (Mousourakis 2007, 161)  Before this time there was no specialised court building. Courts could be held in the basilicas (Berger 1968, 742)  (introduced by the 3rd Century BCE (Stearns 2001) ) where a provincial governor could an hold audience or in the Roman forum. Basilicas were multi-purpose buildings a place for banking and money-changing and town hall activities. The forum was a multi-purpose building which had existed since the Roman Kingdom.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Professional Lawyers:    present&lt;/strong&gt;   Law specialists first existed during the Principate when they commanded fees for their expertise. We know this because Emperor Claudius attempted to &amp;quot;limit the fees of advocates, which had become intolerably heavy&amp;quot; to protect &amp;quot;women and other helpless litigants from the rapacity of their lawyers.&amp;quot;  (Allcroft and Haydon 1902, 121 [http://archive.org/stream/earlyprincipateh00allcuoft#page/120/mode/2up/search/lawyers])  The first law school in Rome, for persons who wished to pursue career in the Imperial civil service, was established late second century CE. &amp;quot;Professional&amp;quot; lawyers replaced orators during the Roman Dominate period. (Mousourakis 2007, 163) &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Allcroft, A, Haydon, J (1902) The Early Principlate: A History of Rome, 31 B.C. - 96 A.D., W. B. Clive, London. &lt;/li&gt;
+&lt;li&gt;Cornell, 1995&lt;/li&gt;
+&lt;li&gt;Fields, N (2007) The Roman Army of the Punic Wars: 264 - 146 BC, Osprey Publishing&lt;/li&gt;
+&lt;li&gt;Flower, H (2004) The Cambridge Companion to the Roman Republic, Cambridge University Press&lt;/li&gt;
+&lt;li&gt;Grant, M, Kitzinger, R (1988) Civilization of the ancient Mediterranean: Greece and Rome, Volume 2, Scribner&amp;#39;s&lt;/li&gt;
+&lt;li&gt;Harries, Jill. 2001. Law and Empire in Late Antiquity. Cambridge University Press. Cambridge. &lt;/li&gt;
+&lt;li&gt;Lendon, J. E. 1997. Empire of Honour: The Art of Government in the Roman World. Oxford University Press. Oxford. &lt;/li&gt;
+&lt;li&gt;Mattingly, H. 1910. The imperial civil service of Rome. Cambridge University Press. Cambridge. 
+(Dupuy and Dupuy 2007)&lt;/li&gt;
+&lt;li&gt;Mousourakis, G (2007) A Legal History of Rome, Routledge.&lt;/li&gt;
+&lt;li&gt;Pollard, N, Berry, J (2012) The Complete Roman Legions, Thames and Hudson, London&lt;/li&gt;
+&lt;li&gt;http://dlib.etc.ucla.edu/projects/Forum/reconstructions/CuriaIulia_1&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;http://archive.org/stream/earlyprincipateh00allcuoft#page/120/mode/2up/search/lawyers&lt;/p&gt;</GOVERNMENT>
+			<MONETARY>&lt;p&gt;&lt;strong&gt;Money&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   Articles:    inferred present&lt;/strong&gt;    Wheat and other agricultural products were often used as stores of wealth. (Gibbs 2012, 46)  It is conceivable that they were traded.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   Tokens    {present; absent}&lt;/strong&gt;    Spintria may have been used in the Principate to pay prostitutes although it is also argued that these were gaming pieces.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   Precious metals:    present&lt;/strong&gt;    gold was used as a store of wealth (cf J.-M. Carrié 2003 &amp;quot;Solidus et Credit&amp;quot;) and conceivably was used for payment.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   Foreign coins:    inferred present&lt;/strong&gt;    Rawson states &amp;quot;Rome did not ... impose a common coinage over her sphere of influence, unlike Athens.&amp;quot; (Rawson 2001, 60-61)  However, by the Roman Dominate a common coinage had spread across the Empire.  (Davidson 2011, 47) &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   Indigenous coins:    present&lt;/strong&gt;     Rome produced its first coin about 281 BCE, a Greek-style silver didrachma, minted in Neapolis (and twelve years later coins were minted in Rome.) Prior to end of Second Punic War (end 201 BCE) many coins were produced by communities other than Rome. Monetary and economic unity from Rome was achieved by the early 1st century BCE.  (Crawford 2001, 32, 42)  Roman coins included the silver denarius, silver Sestertius and gold aureus. [http://www.tulane.edu/~august/handouts/601cprin.htm] &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   Paper currency:    absent&lt;/strong&gt;    The Romans did not use paper currency in any period.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   Debt and credit structures:    present&lt;/strong&gt;    Greek coinage was available from the Roman Kingdom so debt and credit structures may have become established at this time. Money-changers and bankers were to be found in the basilicas and the Roman forum. In the Middle and Late Republic, wealthy oligarchs (e.g. Marcus Crassus) &amp;quot;would advance money on loan to influential men without distinction of party, and thus acquired a power which none dared provoke.&amp;quot;  (Mommsen 1911, 328 [http://archive.org/stream/historyofromanre00momm#page/328/mode/2up/search/000])  From the Principate &amp;quot;a range of banking activities (loans, transfer of credit, etc.) facilitated the participation in long-distance commercial enterprises that involved the use of money either in the form of coins or as credit.&amp;quot;  (Katsari 2011, 64)  Further reading: Samuel Joshua books &amp;quot;Identity and Legal Status at Rome&amp;quot;, &amp;quot;Worth and Profession in the Roman World&amp;quot;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   Store of wealth:    present&lt;/strong&gt;    Villa rustica. Cato (d.149 BCE?) recommended farmers should have well-built Villa rustica. Grain storage was used as store of wealth and olive oil and wine could have been used similarly. (Hollander 2007, 80-81) &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Postal System&lt;/strong&gt; 
+&lt;strong&gt;:   Couriers:    inferred present&lt;/strong&gt;    &amp;quot;Before Augustus, Romans wanting to post a letter had to find a courier wherever they could, and work out the arrangements for delivery ad hoc. But by Cicero&amp;#39;s day [i.e. c100 BCE] there had evolved a number of fairly regular means by which one could send a letter.&amp;quot; This included &amp;quot;a private system of letter carriers maintained by the publicani, whose business of collecting taxes in the provinces necessitated a reliable means of communication over long distances... a private individual could arrange for these couriers, called tabellarri, to carry personal letters along with the business correspondence of their companies.&amp;quot; (Nicholson 1994)  &amp;quot;The legion also had a detachment of 120 horsemen (equites legionis), typically employed as messengers and similar roles, rather than as cavalry in combat.&amp;quot; (Pollard and Berry 2012, 36) &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   Postal stations:    present&lt;/strong&gt;   Cursus Publicus, established by Augustus. &amp;quot;A series of postal stations connected by wagon and horse relays along the major trunk roads of the Empire&amp;quot;.  (Gabriel 2001, 209)  Carried private and state post.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   General postal service:    present&lt;/strong&gt;    Cursus Publicus, established by Augustus. &amp;quot;A series of postal stations connected by wagon and horse relays along the major trunk roads of the Empire&amp;quot;.  (Gabriel 2001, 209)  Carried private and state post.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   Fastest individual communication&lt;/strong&gt;    &lt;strong&gt;13.4&lt;/strong&gt;    Days Rome (capital city) - Caesarea-Maritima (most outlying provincial capital). Horse relay to Regium. Ship to Messana. Ship to Cyrene. Horse relay to Caesarea-Maritima.  (Orbis, [http://orbis.stanford.edu/#mapping]) &lt;/p&gt;
+
+&lt;p&gt;References&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Crawford, M (2001) Early Rome and Italy in Boardman J, Griffin J, Murray O ed: in The Oxford History of the Roman World, Oxford University Press.&lt;/li&gt;
+&lt;li&gt;Gabriel (2001) Great Captains of Antiquity, Greenwood Publishing Group&lt;/li&gt;
+&lt;li&gt;Hollander 2007&lt;/li&gt;
+&lt;li&gt;Katsari, C (2011) The Roman Monetary System: The Eastern Provinces from the First to the Third Century AD, Cambridge University Press.&lt;/li&gt;
+&lt;li&gt;Mommsen 1911, http://archive.org/stream/historyofromanre00momm#page/328/mode/2up/search/000&lt;/li&gt;
+&lt;li&gt;Nicholson, J (1994) The Delivery and Confidentiality of Cicero&amp;#39;s Letters (pp. 33-63), Vol. 90, No. 1, Oct. - Nov., The Classical Journal.&lt;/li&gt;
+&lt;li&gt;Orbis, [http://orbis.stanford.edu/#mapping]&lt;/li&gt;
+&lt;li&gt;Pollard, N, Berry, J (2012) The Complete Roman Legions, Thames and Hudson, London.&lt;/li&gt;
+&lt;/ul&gt;
+</MONETARY>
+			<INFRASTRUCTURE>&lt;p&gt;&lt;strong&gt;Infrastructure&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Specialized Buildings: polity owned&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Communal buildings:    present&lt;/strong&gt;    &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Special purpose house:    present&lt;/strong&gt;   &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Utilitarian public buildings:    present&lt;/strong&gt;    Trajan commissioned a new Roman forum, chiselled out of 125 ft of hill, which had to be flattened because it was only space available (Appolodorus of Damascus was the architect). Greek and Latin libraries, basilica where law cases tried, Trajan&amp;#39;s column, Trajan&amp;#39;s market (six story concave shopping mall built into carved hillside, 150 stores)  (Canciello 2005) . Publicly accessible bathhouses since third century BCE.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;: irrigation systems:    present&lt;/strong&gt;   (Lewis 1974, 26)  Improved irrigation, Cyrenaica.  (Bunsan, 1991, 57)  For irrigation system, particularly North Africa, see Andrew Wilson. For Egypt irrigation: Rathbone 2008; Blouin 2012&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   drinking water supply systems:    present&lt;/strong&gt;   At Rome nearly all aqueducts begin in Sabine Hills, in the valley of the river Anio. Waters, such as from the (previously built) Aqua Marcia, would take 15-20 hours to reach the city. At the city the water would enter a distribution tank, before travelling through the terracota or lead-pipe network. The best evidence for piped urban water networking has been found at Pompeii. The water had three main destinations: street fountains, baths and domestic. Most Romans gained their fresh water from street fountains. For domestic use, water supply was controlled by size of bronze nozzle (adjutage) that connected the masonry channel to the lead pipe that entered the house. Domestic water was probably paid for with a &amp;quot;water tax&amp;quot;.  (Evans 2013, [http://books.google.co.uk/books?id=lY9BXrGjxXAC&amp;amp;pg=PT340&amp;amp;dq=drinking+water+supply+roman+republic&amp;amp;hl=en&amp;amp;sa=X&amp;amp;ei=a5nlUdngEOKl0wW0t4HwDg&amp;amp;ved=0CDMQ6AEwAA])  Arsinoe, metropolis in Egypt (capital town of a nome) &amp;quot;had running water supplied by two reservoirs into which water was pumped from an arm of the Nile.&amp;quot;  (Peacock 2000, 416)   By the 3rd century CE, there were 11 aqueduct lines into Rome  (Canciello 2005)  which we can infer required maintenance. Under Claudius (41-54 CE) Aqua Claudius and Anio Novis were built with a gradient which fell several inches every 100 feet. Tunnels were precisely angled and key stone arch used for 6 mile column of arches that carried water into Rome. Waters were distributed to public drinking fountains, public baths and other buildings, and to wealthy Romans who paid for running water  (Canciello 2005) .&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   markets    present&lt;/strong&gt;   Trajan&amp;#39;s market  (Canciello 2005) .&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   food storage sites:    present&lt;/strong&gt;    A procurator for grain supply.  (Burnand, 2011, 19)  Archaeological example, the granary of the Roman fort at Housesteads, on Hadrian&amp;#39;s Wall.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Symbolic building:   present&lt;/strong&gt;    Curia Iulia, Basilica Iulia, temple Divus Iulius, portico of Gaius and Lucius, Augustian triumphal arches, forum Augustus.  (Stearns 2001, 84)  Trajan column, temple of Jupiter, temple of Venus (both temples were reconstructed after the fighting in Rome in 69 CE. The temple of Jupiter was even more lavish than before and was opened again in 80 CE).  Nero&amp;#39;s palace, Domus aurea. Built on urban land which had been cleared by fire. Took four years to build out of brick and concrete. Lavish. Vaulted ceilings. Studded with gems and precious metals. Man-made lake in gardens. Symbolic of Nero&amp;#39;s ego and power of Emperor, subsequent Emperors covered it over with earth and built new public structures on it.  (Canciello 2005)  Trajan&amp;#39;s column. 125 ft, with relief chronicling conquest of Dacians. Column same height as amount of hill removed.  (Canciello 2005) &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Entertainment buildings:    present&lt;/strong&gt;    Amphitheatres, such as the Roman Colosseum (70-80 CE). Completed 80 CE with capacity of 50,000  (Black 2008, 181) . Arenas and theatres  (Black 2008, 182) . Agrippa and Augustus built public baths, theatres and amphitheatres.  (Stearns 2001, 84)  The Roman theatre at Augusta Emerita (Merida) in Spain built by Marcus Agrippa (16-15 BCE).  (Pollard and Berry 2012, 35) Trajan (98-117 CE) builds public baths over Nero&amp;#39;s palace. Baths of Caracella 216 CE.  [http://translate.google.co.uk/translate?hl=en&amp;amp;sl=it&amp;amp;u=http://www.archeorm.arti.beniculturali.it/&amp;amp;prev=/search%3Fq%3Dbaths%2Bof%2Bcaracalla%26biw%3D930%26bih%3D593]  Massive bath complex with olympic sized pools, hot and cold pools, trimmed in gold, marbled and fine mosaic floors. Track and field areas, libraries, shops, brothels. 2000 capacity. Built in 5 years, using 5000-10000 workers. 5 million gallons water channelled through every day, heated by up to 50 sub-subterranean furnances.  (Canciello 2005) .&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Knowledge/information buildings:    present&lt;/strong&gt;    Augustus built Palatine Library, first in Rome.  (Allcroft and Haydon 1902, 209)  Augustus and Trajan built libraries. Unlike Greek libraries, which were storehouses, Roman libraries allowed space for reading and allowed some borrowing of books  (McGeough 2009, 269)   Public libraries  (Raaflaub and Toher, 1993, 96 [http://books.google.co.uk/books?id=-UTjncU9zFgC&amp;amp;dq=principate+library&amp;amp;source=gbs&lt;em&gt;navlinks&lt;/em&gt;s])   Museums introduced by Augustus. (Stearns 2001, 84)  State archives were located in the Tabularium.  [http://en.museicapitolini.org/sede/campidoglio_antico/tabularium] &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Transport infrastructure&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   Roads:    present&lt;/strong&gt;   Road building under Augustus. Total road building by all emperors 250,000 miles, 55,000 miles paved (11,000 more than US highway system).  (Gabriel 2001, 209) &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   Bridges:    present&lt;/strong&gt;    &amp;quot;Legionaries&amp;#39; engineering and construction skills were put to use for obviously military purposes (fortifications), but also sometimes for improving infrastructure by building canals or bridges, or in mining and quarrying.&amp;quot; (Pollard and Berry 2012, 48)  Via Flaminia crossed Nera River with Ponte d&amp;#39;Augusto, spans from 52-105 feet. Pont-Saint-Martin, east of Aosta, span of 35.6 meters. 104 CE Alcantara bridge, span 28.8 meters, height 62 meters. Puente Romano, Merida, total length 721 meters (not built in one go, sections added over time)  (Gagarin and Fantham 2009, 25)  Major repair of roads, bridges and harbours under Trajan (98-117 CE).  (Canciello 2005) .&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   Canals:    present&lt;/strong&gt;    E.g. Late 1st BCE. Ferrara - Padua, built by Augustus. Claudius &amp;quot;employed 30,000 men for eleven years in cutting an outlet to the Liris for the waters of the Fucine Lake, and thereby saved them from repeated inundation a large area of the Marsian lands&amp;quot;  (Allcroft and Haydon 1902, 121)  &amp;quot;Legionaries&amp;#39; engineering and construction skills were put to use for obviously military purposes (fortifications), but also sometimes for improving infrastructure by building canals or bridges, or in mining and quarrying.&amp;quot; (Pollard and Berry 2012, 48) 
+:   Ports    present    Claudius excavated harbour northern side of estuary of the Tiber, replaced ancient port of Ostia.  (Allcroft and Haydon 1902, 121) &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The most impressive/costly building(s)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   height    48    meters. Colusseum.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   extent    189    Total length (metres). Colusseum.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   cost    96,000    people-years.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Colusseum built by Vespasian (69-79 CE) on drained lake which had been created for Nero&amp;#39;s garden. Paid for by sacking of Jerusalem, sale of relics from temples. 12&amp;#39;000 captives used as slave labour. 8 years build, became tallest ancient Roman structure. Capacity 70,000 people. Had 110 drinking fountains, 2 restrooms and a retractable fabric roof operated by sailors. Until redeveloped arena could be flooded for mock sea battles.  (Canciello 2005) . Pont du Gard aqueduct 40-60 CE  15-20 years. 800-1000 workers. Max 20,000 people-years. 30 million sestertius. Height 48.8m. Extent (upper length) 275m.  The Pantheon temple, Rome 126 CE. Famous for the Rotunda, domed ceiling with sky hole (oculus). Ceiling had 150ft wide span and was 150ft in height.  (Canciello 2005 . Baths of Caracalla 9000 workers over 5 years. 45,000 people-years.  (https://miladysboudoir.wordpress.com/2015/03/25/water-water-everywhere-the-caracalla-baths-and-the-claudio-aqueduct/) &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Special purpose sites:    present&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;:   Ceremonial site:    present&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;:   Burial site:    present&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;:   Trading emporia:    present&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;:   Enclosures:    present&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;:   Mines or quarries:    present&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;:   Other: site&lt;/strong&gt;       &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Allcroft, A, Haydon, J (1902) The Early Principlate: A History of Rome, 31 B.C. - 96 A.D., W. B. Clive, London. &lt;/li&gt;
+&lt;li&gt;Black, J. 2008. World History Atlas. Dorling Kindersley Limited. London.&lt;/li&gt;
+&lt;li&gt;Burnand, C (2011) Tacitus and the Principate: From Augustus to Domitian, Cambridge University Press.&lt;/li&gt;
+&lt;li&gt;Canciello, D. 2005. The History of Rome: Engineering the Roman Empire. Kraylevich Productions Inc.&lt;/li&gt;
+&lt;li&gt;Gabriel (2001) Great Captains of Antiquity, Greenwood Publishing Group.&lt;/li&gt;
+&lt;li&gt;Gagarin, M, Fantham E (2009) The Oxford Encyclopedia of Ancient Greece and Rome: Academy-Bible, Oxford University Press.&lt;/li&gt;
+&lt;li&gt;Lewis, N (1974) The Roman principate: 27 B.C.-285 A.D., Hakkert&lt;/li&gt;
+&lt;li&gt;Peacock, D in Shaw, I. 2000. The Oxford History of Ancient Egypt. Oxford University Press. Oxford&lt;/li&gt;
+&lt;li&gt;Pollard, N, Berry, J (2012) The Complete Roman Legions, Thames and Hudson, London&lt;/li&gt;
+&lt;li&gt;Raaflaub, K, Mark Toher, M (1993) Between Republic and Empire: Interpretations of Augustus and His Principate, University of California Press.&lt;/li&gt;
+&lt;li&gt;Stearns, P (2001) The Encyclopedia of World History, 6th edition, James Clarke &amp;amp; Co Ltd, Cambridge.&lt;/li&gt;
+&lt;li&gt;http://en.museicapitolini.org/sede/campidoglio_antico/tabularium&lt;/li&gt;
+&lt;li&gt;https://miladysboudoir.wordpress.com/2015/03/25/water-water-everywhere-the-caracalla-baths-and-the-claudio-aqueduct/ &lt;/li&gt;
+&lt;/ul&gt;
+</INFRASTRUCTURE>
+			<INFOSYS>&lt;p&gt;&lt;strong&gt;Information System&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   Mnemonic devices&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;:   Nonwritten records:    present&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;:   Written records:    present&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;:   Script:    present&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;:   Non-phonetic writing:    absent&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;:   Phonetic alphabetic writing:   present&lt;/strong&gt;  &lt;/p&gt;</INFOSYS>
+			<TEXTS>&lt;p&gt;&lt;strong&gt;Texts&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   Lists, tables, and classifications:    present&lt;/strong&gt;   &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   Calendar:    present&lt;/strong&gt;
+    Julian calendar, in use since 46 BCE. in 8 BCE Augustus renamed Quintilis as Iulius (July) and Sextilis as Augustus (August).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   Sacred Texts:    present&lt;/strong&gt;    Inscriptions.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   Religious literature:    present&lt;/strong&gt;    Jewish writings - Talmud? Martin Goodman reference. Christian literature. Belief system. James Ribes on Roman religion.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   Practical literature:    present&lt;/strong&gt;    Junius Columella wrote twelve books on agriculture  (Allcroft and Haydon 1902, 237)  (4 – c70 CE)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   History:    present&lt;/strong&gt;    Dio Cassius (155 - c235 CE), Livy (59 BC - 17 CE), Plutarch (50 - 125 CE), Tacitus (56-120 CE)  [http://www.unrv.com/culture/roman-writers.php] . Pompeius Trogus Historiae Philippicae, a universal history in forty four books up to 9 CE. Strabo (54 BCE - 24 CE), wrote geographical and historical works. Titus Livius Patavinus (born Padua, 59-57 BCE)  (Allcroft and Haydon 1902, 225-228)  Cornelius Tacitus (probably born Rome, 54-120 CE), work included Germania a treatise on geographical and social condition of Germany. Histories (concerns years 69-70 CE), Annales (History of Rome, Tiberius to Nero)  (Allcroft and Haydon 1902, 238)  Suetonius historian, De vita Caesarum. Valerius, historical anecdotes. Plutarch (born 46 CE, Boeotia) known for Parallel Lives and Moralia.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   Philosophy:    present&lt;/strong&gt;    Seneca (born Cordova, 4 CE), work on ethics, some poetical work (tragedies)  (Allcroft and Haydon 1902, 231) 
+:   Scientific literature    present    Galen (129 - 199CE). Vitruvius Pollio (born 64 BCE), wrote ten books on architecture and engineering. &amp;quot;From it we gain almost all our knowledge of the Roman canons of architecture in temples, acqeducts and houses, and of the military engines of the period.&amp;quot; Cornelis Celsus, included work on farming, medicine and surgery.  (Allcroft and Haydon 1902, 224-230)  Pliny the Elder (23 - 79 CE), Historia Naturalis (77 CE) &amp;quot;20,000 facts from 500 authors&amp;quot;, index to scientific knowledge. Also wrote two histories.  (Allcroft and Haydon 1902, 240) &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;:   Fiction:    present&lt;/strong&gt;    Albius Tibullus (born 53 BCE), poet wrote Elegies. Sextus Propertius (born in Umbria c58-49 BCE), elegiac poet. Publius Vergilius Maro (born near Mantua 70 BCE), poet, wrote Eclogues (published before 39 BCE), Georgics, Aeneid (begun 29 BCE, published 17 BCE). Quintus Horatius Flaccus (born at Venusia 65 BCE) a humourist, wrote Satires (published c34-29 BCE), Odes (published 23-14 BCE), Epodes (poem, published c30 BCE), Epistles (published c20 BCE), De Arte Poetica (essay publised c13 BCE). Publius Ovidius Naso (born at Sulmo, 43 BCE) poet of elegiac verse, Amores (9 BCE), Heroides, Ars Amandi (2 BCE), Remedia Amoris (1 CE), Fasti, Metamorphoses, Tristia, Epistles from Pontus, and other works.  (Allcroft and Haydon 1902, 211-224)   Junius Juvenais, satirist, (born Acquinum, died 130 CE)  (Allcroft and Haydon 1902, 235)  Seneca (born Cordova, 4 CE) also wrote some widely read tragedies and dialogues. Lucan, poet (born 39 CE, Cordova). Apuleius, Latin prose writer (born c125 CE, a Numidian Berber, from Madaurus). Martial, Latin epigram (38 CE, Bilbilis). Petronius (c27 CE, Massalia) wrote satirical novel Satyricon.&lt;/p&gt;
+
+&lt;p&gt;More: Oxford Latin Dictionary. &amp;quot;Dinner table conversation.&amp;quot;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Allcroft, A, Haydon, J (1902) The Early Principlate: A History of Rome, 31 B.C. - 96 A.D., W. B. Clive, London. &lt;/li&gt;
+&lt;li&gt;http://www.unrv.com/culture/roman-writers.php&lt;/li&gt;
+&lt;/ul&gt;
+</TEXTS>
+			<CAPITAL_POP>&lt;p&gt;&lt;strong&gt;Population of the largest settlement:&lt;/strong&gt; &lt;strong&gt;[900,000-1,100,000]: 1 CE; [1,000,000-1,200,000]: 100 CE; 1,000,000: 200 CE&lt;/strong&gt; Inhabitants.&lt;/p&gt;
+
+&lt;p&gt;Rome at its peak had a population of 1,200,000.  (Lo Cascio 2000)   &lt;span style="color:blue"&gt;What is the peak date for the settlement of Rome - 117 CE?&lt;/span&gt; Population of Rome was 1,000,000 by 1 CE.  (Canciello 2005)  Alexandria (largest settlement in the Roman province of Egypt) was at most 750,000 people at its height in the mid-second CE.  (Rathbone 2007, 699)  Other estimates of Alexandria&amp;#39;s population put it at around 500,000 people for most of the imperial Principate period. (Bagnall and Frier 1994, 54) &lt;/p&gt;
+
+&lt;p&gt;Peak settlement of Rome generally thought to be c150 CE. By 200 CE about 1 million.  (Twine 1992 http://msaag.org/wp-content/uploads/2013/04/26_Twine.pdf) &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Largest communication distance: 3,052&lt;/strong&gt; KM. Rome (capital) - Caesarea-Maritima (most outlying provincial capital). (Scheidel and Meeks 2015,  http://orbis.stanford.edu/#mapping)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bagnall, R. S. and Frier, B. The Demography of Roman Egypt. Cambridge England ; New York, NY: Cambridge University Press, 1994.&lt;/li&gt;
+&lt;li&gt;Canciello, D. 2005. The History of Rome: Engineering the Roman Empire. Kraylevich Productions Inc.&lt;/li&gt;
+&lt;li&gt;Lo Cascio, E eds. (2000) Roma imperiale. Una metropoli antica, Carocci, Rome&lt;/li&gt;
+&lt;li&gt;Rathbone, D. &amp;quot;Roman Egypt&amp;quot; in Scheidel, Walter, Ian Morris, and Richard P. Saller. The Cambridge Economic History of the Greco-Roman World. Cambridge Histories Online. Cambridge: Cambridge University Press, 2008, 698-719.&lt;/li&gt;
+&lt;li&gt;Scheidel and Meeks 2015, http://orbis.stanford.edu/#mapping&lt;/li&gt;
+&lt;li&gt;Twine 1992, http://msaag.org/wp-content/uploads/2013/04/26_Twine.pdf &lt;/li&gt;
+&lt;/ul&gt;
+</CAPITAL_POP>
+			<TERRITORY>&lt;strong&gt;Polity territory: 4,500,000: 1 CE; 5,800,000: 100 CE; 5,000,000: 200 CE&lt;/strong&gt; KM2. Data coded to make it easier for scraper to read.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Actual:&lt;/strong&gt; 4,500,000: 14 CE; 5,800,000: 117 CE; 5,000,000: 211 CE; 4,750,000: 274 CE&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Maximum Area:&lt;/strong&gt; 5.0 Mm^2. (Turchin et. al. 2006, [http://jwsr.ucr.edu/archive/vol12/number2/pdf/jwsr-v12n2-tah.pdf]) 5m km^2.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Estimates:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;14 CE 4476051 km² estimated from google area calculator and a map  (Stockton 2001 152-153) &lt;/li&gt;
+&lt;li&gt;117 CE 5819328 km² estimated from google area calculator and a map  (Stockton 2001 152-153) &lt;/li&gt;
+&lt;li&gt;211 CE 5039845 km² estimated from google area calculator and a map&lt;/li&gt;
+&lt;li&gt;274 CE 4750000 estimated from google area calculator and a map&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Stockton, D (2001) The Founding of the Empire in Boardman J, Griffin J, Murray O ed: in The Oxford History of the Roman World, Oxford University Press&lt;/li&gt;
+&lt;li&gt;Turchin, P, Adams, J, Hall, T (2006) East-West Orientation of Historical Empires and Modern States, Journal of World-Systems Research&lt;/li&gt;
+&lt;/ul&gt;
+</TERRITORY>
 		</POLITY>
 		<POLITY>
 			<NAME>TrRomDm</NAME>
