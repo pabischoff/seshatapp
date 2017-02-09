@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+	<NGA>
+		<POLITY>
+			<NAME>ItRomPr</NAME>
+			<POLITY_POP>Some</POLITY_POP>
+			<HIERARCHY>One guy is higher than the other guy</HIERARCHY>
+			<GOVERNMENT>Monarchy</GOVERNMENT>
+			<MONETARY>Trumped up trickle down</MONETARY>
+			<INFRASTRUCTURE>Crumbling</INFRASTRUCTURE>
+			<INFOSYS>Pidgeons</INFOSYS>
+			<TEXTS>I don't read much.</TEXTS>
+			<CAPITAL_POP>A few</CAPITAL_POP>
+			<TERRITORY>Get off my lawn</TERRITORY>
+			
+		</POLITY>
+		<POLITY>
+			<NAME>TrRomDm</NAME>
+			<POLITY_POP>Several</POLITY_POP>
+			<HIERARCHY>One guy is lower than the other guy</HIERARCHY>
+			<GOVERNMENT>Diarchy</GOVERNMENT>
+			<MONETARY>Reaganomics</MONETARY>
+			<INFRASTRUCTURE>Aquaducts?</INFRASTRUCTURE>
+			<INFOSYS>Town crier</INFOSYS>
+			<TEXTS>Texting</TEXTS>
+			<CAPITAL_POP>A couple</CAPITAL_POP>
+			<TERRITORY>Marked with urine</TERRITORY>
+			
+		</POLITY>
+		<POLITY>
+			<NAME>ItRomWe</NAME>
+			<POLITY_POP>A bit</POLITY_POP>
+			<HIERARCHY>One guy is the same as the other guy</HIERARCHY>
+			<GOVERNMENT>Oligarchy</GOVERNMENT>
+			<MONETARY>Let's just all agree that Obama should be on our money</MONETARY>
+			<INFRASTRUCTURE>Probably better than the last polity</INFRASTRUCTURE>
+			<INFOSYS>Cups and strings</INFOSYS>
+			<TEXTS>Cosmopolitan Magazine</TEXTS>
+			<CAPITAL_POP>A plethora</CAPITAL_POP>
+			<TERRITORY>A stone's throw</TERRITORY>
+			
+		</POLITY>
+	</NGA>
+	<NGA>
+		<POLITY>
+			<NAME>CuzcoLF</NAME>
+			<POLITY_POP>Lorem Ipsum</POLITY_POP>
+			<HIERARCHY>Lorem Ipsum</HIERARCHY>
+			<GOVERNMENT>Lorem Ipsum</GOVERNMENT>
+			<MONETARY>Lorem Ipsum</MONETARY>
+			<INFRASTRUCTURE>Lorem Ipsum</INFRASTRUCTURE>
+			<INFOSYS>Lorem Ipsum</INFOSYS>
+			<TEXTS>Lorem Ipsum</TEXTS>
+			<CAPITAL_POP>Lorem Ipsum</CAPITAL_POP>
+			<TERRITORY>Lorem Ipsum</TERRITORY>
+			
+		</POLITY>
+		<POLITY>
+			<NAME>CuzcEI1</NAME>
+			<POLITY_POP>Lorem Ipsum</POLITY_POP>
+			<HIERARCHY>Lorem Ipsum</HIERARCHY>
+			<GOVERNMENT>Lorem Ipsum</GOVERNMENT>
+			<MONETARY>Lorem Ipsum</MONETARY>
+			<INFRASTRUCTURE>Lorem Ipsum</INFRASTRUCTURE>
+			<INFOSYS>Lorem Ipsum</INFOSYS>
+			<TEXTS>Lorem Ipsum</TEXTS>
+			<CAPITAL_POP>Lorem Ipsum</CAPITAL_POP>
+			<TERRITORY>Lorem Ipsum</TERRITORY>
+			
+		</POLITY>
+		<POLITY>
+			<NAME>CuzcEI2</NAME>
+			<POLITY_POP>Lorem Ipsum</POLITY_POP>
+			<HIERARCHY>Lorem Ipsum</HIERARCHY>
+			<GOVERNMENT>Lorem Ipsum</GOVERNMENT>
+			<MONETARY>Lorem Ipsum</MONETARY>
+			<INFRASTRUCTURE>Lorem Ipsum</INFRASTRUCTURE>
+			<INFOSYS>Lorem Ipsum</INFOSYS>
+			<TEXTS>Lorem Ipsum</TEXTS>
+			<CAPITAL_POP>Lorem Ipsum</CAPITAL_POP>
+			<TERRITORY>Lorem Ipsum</TERRITORY>
+			
+		</POLITY>
+	</NGA>
+	<NGA>
+		<POLITY>
+			<NAME>USMisMW</NAME>
+			<POLITY_POP>Lorem Ipsum</POLITY_POP>
+			<HIERARCHY>Lorem Ipsum</HIERARCHY>
+			<GOVERNMENT>Lorem Ipsum</GOVERNMENT>
+			<MONETARY>Lorem Ipsum</MONETARY>
+			<INFRASTRUCTURE>Lorem Ipsum</INFRASTRUCTURE>
+			<INFOSYS>Lorem Ipsum</INFOSYS>
+			<TEXTS>Lorem Ipsum</TEXTS>
+			<CAPITAL_POP>Lorem Ipsum</CAPITAL_POP>
+			<TERRITORY>Lorem Ipsum</TERRITORY>
+			
+		</POLITY>
+		<POLITY>
+			<NAME>USMisRo</NAME>
+			<POLITY_POP>Lorem Ipsum</POLITY_POP>
+			<HIERARCHY>Lorem Ipsum</HIERARCHY>
+			<GOVERNMENT>Lorem Ipsum</GOVERNMENT>
+			<MONETARY>Lorem Ipsum</MONETARY>
+			<INFRASTRUCTURE>Lorem Ipsum</INFRASTRUCTURE>
+			<INFOSYS>Lorem Ipsum</INFOSYS>
+			<TEXTS>Lorem Ipsum</TEXTS>
+			<CAPITAL_POP>Lorem Ipsum</CAPITAL_POP>
+			<TERRITORY>Lorem Ipsum</TERRITORY>
+			
+		</POLITY>
+		<POLITY>
+			<NAME>USMisMu</NAME>
+			<POLITY_POP>Lorem Ipsum</POLITY_POP>
+			<HIERARCHY>Lorem Ipsum</HIERARCHY>
+			<GOVERNMENT>Lorem Ipsum</GOVERNMENT>
+			<MONETARY>Lorem Ipsum</MONETARY>
+			<INFRASTRUCTURE>Lorem Ipsum</INFRASTRUCTURE>
+			<INFOSYS>Lorem Ipsum</INFOSYS>
+			<TEXTS>Lorem Ipsum</TEXTS>
+			<CAPITAL_POP>Lorem Ipsum</CAPITAL_POP>
+			<TERRITORY>Lorem Ipsum</TERRITORY>
+			
+		</POLITY>
+	</NGA>
+</CATALOG>
+	
