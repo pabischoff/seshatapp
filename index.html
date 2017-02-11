@@ -3,14 +3,67 @@
 <meta charset="utf-8"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <style>
+.slider
+{
+    width: 50%;
+}
 </style>
 </head>
 
 
 <body>
-	<h1>Seshat Polity Explorer</h1>
+	<center><h1 id="top">Seshat Polity Explorer</h1>
 <h2>Choose an NGA</h2>
+<!-- <table style="width:100%">
+  <tr>
+    	<td>Ghanaian Coast</td>
+	<td>Iceland</td>
+	<td>Lena River Valley</td>
+	<td>Yemeni Coastal Plain</td>
+  </tr>
+  <tr>
+	<td>Garo Hills</td>
+	<td>Kapuasi Basin</td>
 
+	<td>Southern China Hills</td>
+	<td>Finger Lakes</td>
+  </tr>
+  <tr>
+	<td>Lowland Andes</td>
+	<td>Oro, PNG</td>
+	<td>Niger Inland Delta</td>
+	<td>Paris Basin</td>
+  </tr>
+  <tr>
+	<td>Orkhon Valley</td>
+	<td>Konya Plain</td>
+	<td>Deccan</td>
+	<td>Central Java</td>
+  </tr>
+  <tr>
+	<td>Kansai</td>
+	<td>Cahokia</td>
+
+	<td>North Colombia</td>
+	<td>Chuuk Islands</td>
+  </tr>
+  <tr>
+	<td>Upper Egypt</td>
+	<td>Latium</td>
+	<td>Sogdiana</td>
+	<td>Susiana</td>
+  </tr>
+  <tr>
+	<td>Kachi Plain</td>
+	<td>Cambodian Basin</td>
+	<td>Middle Yellow River Valley</td>
+	<td>Valley of Oaxaca</td>
+  </tr>
+  <tr>
+	<td>Cuzco</td>
+	<td>Big Island Hawaii</td>
+  </tr>
+</table> -->
 <img src="nga.png" width="" height="" alt="NGAs" usemap="#ngamap">
 <map name="ngamap" id="nga"><!-- each id correlates to the NGA's position in the XML file -->
 	  <area shape="rect" id="0" coords="523,109,546,126" alt="" href="#" value="Latium">
@@ -32,15 +85,18 @@
   <area shape="rect" id="TERRITORY" coords="42,330,220,388" alt="" href="#" value="Polity Territory">
 </map>
 <p id="choice"><p>
-<p><input type="button" onclick="getVar()" value="Submit" id="submission"></p>
+<p><a href="#top">Back to top</a></p>
 <h3 id="pol">Polity</h3>
 <p id="polity"></p>
+
 <p><input type="button" onclick="previousPolity()" value="Previous Polity">
+<input type="range" id="polityslider" min="0" max="10" onchange="slider()" class="slider">
 <input type="button" onclick="nextPolity()" value="Next Polity"></p>
+</center>
+<p id="show_variable">Choose a polity and variable to get started.</p>
 
+<p><a href="#top">Back to top</a></p>
 
-
-<p id="show_variable">Click Submit to get information for the first polity.</p>
 
  <script>
 //jquery stuff
@@ -56,13 +112,15 @@ $("map[name=variablemap] area").on('click', function () { // get variable from m
     	variableVal = $(this).attr('id'); 
 	variableChoice = $(this).attr('value');
     	$('html, body').animate({
-        	scrollTop: $("#submission").offset().top
+        	scrollTop: $("#choice").offset().top
     	}, 2000);
 	// output variable and nga choices before submission
 	choiceText1 = "You chose NGA: ";
 	choiceText2 = ", Variable: ";
 	choiceText = choiceText1.concat(ngaChoice,choiceText2,variableChoice);
 	document.getElementById("choice").innerHTML = choiceText;
+	getVar();
+	document.getElementById("polityslider").value = i;
 });
 
 // AJAX stuff
@@ -107,7 +165,7 @@ function showVar(xml, variableVal, ngaInt) {
 		}
 		count = count+1;
 	}
-	
+	document.getElementById("polityslider").max = size-1;
 	document.getElementById("polity").innerHTML = polities; //output polity list
 
 }
@@ -116,15 +174,25 @@ function previousPolity() {
   // display the next polity, unless you are on the last polity
 	if (i > 0) {    
 		i--;
-    		getVar(i);
+    		getVar();
+		document.getElementById("polityslider").value = i;
 	}
 }
 function nextPolity() {
   // display the previous polity, unless you are on the first polity 
 	if (i < size - 1) {
   		i++;
-  		getVar(i);
+  		getVar();
+		document.getElementById("polityslider").value = i;
 	}
-} 
+}
+
+function slider() {
+	i = document.getElementById("polityslider").value;
+	getVar();
+}
+
+
+
 </script> 
 </body>
